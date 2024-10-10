@@ -1,0 +1,726 @@
+[
+    {
+        "question": "Please appreciate this metaphor: 'Life is like a cup of coffee, with sweetness in bitterness'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is life like a cup of coffee?"
+    },
+    {
+        "question": "The body is coffee life like a cup of coffee, with sweetness in bitterness",
+        "answers": "No, the ontology is life.What is the metaphor?"
+    },
+    {
+        "question": "The metaphor is a coffee life like a cup of coffee, with sweetness in bitterness",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is as bitter as coffee.Life is like a cup of coffee, with sweetness in bitterness",
+        "answers": "No, life is not only bitter, but also the sweetness, which emphasizes the bitterness in life."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'Time is like a river, never stopping'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is time like the body of the river?"
+    },
+    {
+        "question": "The body is the river time like a river, and never stops",
+        "answers": "No, the body is time.What is the metaphor?"
+    },
+    {
+        "question": "The metaphor is like a river, and it will never stop",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the ontology and the metaphor is that time is flowing.Time is like a river, never stop",
+        "answers": "No, it should be that time continues to flow forward like a river, implying the passage of time."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'Her smile is as warm as the sun'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is her smile like sunshine?"
+    },
+    {
+        "question": "The body is sunshine, her smile is as warm as the sun",
+        "answers": "No, her body is her smile.What is the metaphor?"
+    },
+    {
+        "question": "Yu Sports is Sunshine, her smile is as warm as the sun",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is that the smile is very warm.Her smile is as warm as the sun",
+        "answers": "No, it should be that her smile is as warm as the sun, which can bring happiness and hope."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'Success is like a blooming flower, you need patience and care'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is successful like a blooming flower?"
+    },
+    {
+        "question": "The body is successful like a blooming flower, which requires patience and care",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "Metering is like a flower that is in full bloom, which requires patience and care",
+        "answers": "No, it should be blooming flowers."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'Love is like a trip, full of unknown and surprise'.",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is love like a trip?"
+    },
+    {
+        "question": "The body is traveling love like a trip, full of unknown and surprise",
+        "answers": "No, the body is love.What is the metaphor?"
+    },
+    {
+        "question": "Metropolitan love is like a travel, full of unknown and surprise",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is that love is full of surprises and uncertainty.Love is like a trip, full of unknown and surprise",
+        "answers": "Very good, this sentence vividly depicts the characteristics of love through the unknown and surprise of travel."
+    },
+    {
+        "question": "Please appreciate this metaphorical sentence: 'Dreams are like starry sky, and they are unable to touch but guide the direction'.",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is the body of dreams like the starry sky?"
+    },
+    {
+        "question": "The body is the starry sky like the starry sky, but it is not enough to guide the direction",
+        "answers": "No, the body is dream.What is the metaphor?"
+    },
+    {
+        "question": "The dream of the starry sky is like a starry sky, but it is not too late to guide the direction",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is that although the dream is far away, it can guide people to move forward.Dreams are like a starry sky, and you can't touch but guide the direction",
+        "answers": "Very good, this sentence expresses the greatness and difficulty of dreaming."
+    },
+    {
+        "question": "Please appreciate this metaphorical sentence: 'Knowledge is like the sea, it is unpredictable, and it is constantly'.",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is the body of knowledge like the sea?"
+    },
+    {
+        "question": "The ontology is the sea knowledge like the sea, which is unpredictable, and it continues",
+        "answers": "No, the body is knowledge.What is the metaphor?"
+    },
+    {
+        "question": "The metaphor is like the sea knowledge is like the sea.",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is the richness and essence of knowledge.Knowledge is like the sea, which is unpredictable, and it is constantly steadily",
+        "answers": "Very good, this sentence emphasizes the possibility of knowledge and profound exploration of knowledge."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'Life is like a play, everyone is an actor'.",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is life like a play?"
+    },
+    {
+        "question": "The ontology is a play like a play, everyone is an actor",
+        "answers": "No, the body is life.What is the metaphor?"
+    },
+    {
+        "question": "Yu Sports is a drama like a play, everyone is an actor",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is that there are different roles and scenes in life.Life is like a play, everyone is an actor",
+        "answers": "Very good, this sentence shows the role performance and change in life."
+    },
+    {
+        "question": "Please appreciate this metaphorical sentence: 'The sun is like a fireball'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is the body of the sun like a fireball?"
+    },
+    {
+        "question": "The body is the sun and the sun like a fireball",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "Metaphor is a fireball sun like a fireball",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is that the sun is hot and bright like a fireball, expressing the characteristics of the sun exuding strong light.Sun like a fireball",
+        "answers": "By the way, this metaphor highlights the sun's hot and bright characteristics by comparing the sun to the fireball, allowing readers to feel the strong glory of the sun more intuitively."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'Time is like flowing'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is time like flowing water?"
+    },
+    {
+        "question": "The body is time like flowing water",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "The metaphor is flowing water like flowing water",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is the characteristics of the irreversible and moving forward of time like flowing water.Time like flowing water",
+        "answers": "By the way, this metaphor highlights the rapid and ruthlessness of time by comparing time to flowing water, making people feel the importance of cherishing time."
+    },
+    {
+        "question": "Please appreciate this metaphorical sentence: 'Life is like a dream'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is the body of life like a dream?"
+    },
+    {
+        "question": "The body is life like a dream",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "Metropolitan is dreaming like a dream",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the ontology and the metaphor is as illusory as dreams, expressing the characteristics of shortness of life and unspeakable life.Life is like a dream",
+        "answers": "By the way, this metaphor highlights the impermanence and rapid changes of life by comparing life to dreams, making people reflect on the meaning of life."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'His mood is densely clouded'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is his mood like a densely cloudy body?"
+    },
+    {
+        "question": "The body is his mood, his mood is densely cloudy",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "The metaphor is Yinyun. His mood is densely clouded",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is that his mood is as heavy as the clouds, expressing the inner depression and gloom.His mood is like cloudy clouds",
+        "answers": "By the way, this metaphor highlights the low emotional depression and boring by comparing the mood to cloudy, making people feel the complexity of emotions."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'Her smile is as warm as the sun'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is her smile as warm as the sun?"
+    },
+    {
+        "question": "The body is her smile, her smile is as warm as the sun",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "Yu Sports is Sunshine, her smile is as warm as the sun",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is that her smile is warm and hopeful like the sun, expressing positive emotions.Her smile is as warm as the sun",
+        "answers": "By the way, this metaphor highlights the appeal and warmth of the smile by comparing the smile on the sun, which makes people feel the beauty of life."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'His voice is as deafening like Hong Zhong, as if to awaken the whole world'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is his deafening body like Hong Zhong?"
+    },
+    {
+        "question": "The body is his voice, his voice is as deafening like a Hong Zhong, as if to wake the whole world",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "Yu Sports is Hong Zhong's voice as deafening like Hong Zhong, as if to wake the whole world",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is that his voice is loud like a Hong Zhong, expressing his strong emotions and the power of calling.His voice was deafening like Hong Zhong, as if to awaken the whole world",
+        "answers": "By the way, this metaphor highlights its strong appeal by comparing the sound to Hong Zhong, which makes people feel the shock and strength of the sound."
+    },
+    {
+        "question": "Please appreciate this metaphorical sentence: 'Life is like a long and difficult journey, every step requires courage and persistence'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is life like a long and arduous journey?"
+    },
+    {
+        "question": "The ontology is life and life like a long and arduous journey. Each step requires courage and persistence.",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "Metaphor is like a long and arduous journey. Every step requires courage and persistence.",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the ontology and the metaphor is as challenging as a journey, and every step requires us to be brave to face difficulties.Life is like a long and arduous journey, every step requires courage and persistence",
+        "answers": "By the way, this metaphor emphasizes the courage and perseverance when facing difficulties by comparing life to the journey, making people feel the value and significance of life."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'Her dance is like spring breeze, light and elegant, as if telling the story of spring'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is her dance like a spring breeze?"
+    },
+    {
+        "question": "The body is her dancing posture. Her dance is like spring breeze, light and elegant, as if telling the story of spring",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "Yu Zi is the spring breeze. Her dance is like spring breeze, light and elegant, as if telling the story of spring",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is that her dance posture is as gentle as the spring breeze, expressing the elegance and nature of dance.Her dance is like spring breeze, light and elegant, as if telling the story of spring",
+        "answers": "By the way, this metaphor highlights the dancing posture, highlighting the dynamic and elegance of dance, allowing the audience to feel the vitality and beauty of spring."
+    },
+    {
+        "question": "Please appreciate this metaphorical sentence: 'Knowledge is like a high mountain, getting up and steep, the more steep, you need to keep climbing'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is the body like a mountain?"
+    },
+    {
+        "question": "The body is knowledge and knowledge like a mountain, getting steeper, the more steady, and you need to keep climbing.",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "The metaphor is a mountain knowledge like a mountain, and the more steady goes, the more steady, and you need to keep climbing.",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the ontology and the metaphor is that the knowledge is profound, and we need to work hard to continue to explore and learn.Knowledge is like a mountain, getting steeper, the steeper, and you need to keep climbing",
+        "answers": "By the way, this metaphor emphasizes the hardships and importance of learning by comparing knowledge to the mountains, which makes people feel the motivation and persistence of pursuing knowledge."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'His mood is as heavy as a rainy day, which makes people feel depressed'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is his mood as heavy as a rainy day?"
+    },
+    {
+        "question": "The body is his mood. His mood is as heavy as a rainy day, which makes people feel depressed",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "The metaphor is like a rainy day. His mood is as heavy as a rainy day, which makes people feel depressed",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is that his mood is gloomy as rainy days, expressing the low and heavy emotional emotion.His mood is as heavy as rainy days, which makes people feel depressed",
+        "answers": "By the way, this metaphor highlights the feeling of depression by comparing the mood to rainy days, which makes people feel the boring and uneasiness."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'Life is like a drama without rehearsal, every moment is worth cherishing'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is life like a dramatic body without rehearsal?"
+    },
+    {
+        "question": "The body is life like a drama without rehearsal, every moment is worth cherishing",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "Yu Sports is a drama life is like a drama without rehearsal. Every moment is worth cherishing",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the ontology and the metaphor is unpredictable in life as drama, and every moment need to be grasped and cherished attentively.Life is like a drama without rehearsal, every moment is worth cherishing",
+        "answers": "By the way, this metaphor emphasizes the preciousness and unpredictability of life by comparing life to drama, which makes people reflect on every choice of life."
+    },
+    {
+        "question": "Please appreciate this metaphorical sentence: 'Time slipped away at the fingertips like fine sand and couldn't catch'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is the body that time slipped away like fine sand?"
+    },
+    {
+        "question": "The body is slipping away at the fingertips like fine sand, and can not catch it.",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "The metaphor is sliding away at the fingertips like fine sand, and can’t catch it.",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the ontology and the metaphor is that time is like fine sand, which makes people feel helpless and cherished about the passage of time.Time slipped away at the fingertips like fine sand, and could not catch it",
+        "answers": "By the way, this metaphor emphasizes the shortness and passage of time by comparing the time to fine sand, making people cherish the time in front of them."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'Friendship is like a blooming flower, it is even more fragrant after experiencing wind and rain.'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is friendship like a blooming flower?"
+    },
+    {
+        "question": "The ontology is friendship and friendship like a blooming flower, and it is even more fragrant to experience the wind and rain.",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "The friendship is like a blooming flower in blooming flowers.",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the ontology and the metaphor is that friendship is more tough and precious after experiencing the wind and rain, just like flowers are more beautiful in the sun and rain.Friendship is like a blooming flower, and it is even more fragrant when experiencing wind and rain",
+        "answers": "By the way, this metaphor highlights the friendship and preciousness of friendship by comparing the friendship, which makes people feel the value of sincere friendship."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'Her laughter is like a clear stream, flowing in my heart, it feels warm.'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is her laughter like the body of the clear stream?"
+    },
+    {
+        "question": "The body is her laughter. Her laughter is like a clear stream, flowing in her heart, which makes people feel warm",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "The metaphor is a clear stream. Her laughter is like a clear stream, flowing in her heart, which makes people feel warm",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is that her laughter is as pure and pleasant as the stream, bringing people endless warmth and happiness.Her laughter is like a clear stream, flowing in her heart, which makes people feel warm",
+        "answers": "By the way, this metaphor emphasizes the warmth and joy of laughter by comparing the laughter to the stream, which makes people feel the beauty in life."
+    },
+    {
+        "question": "Please appreciate this metaphorical sentence: 'Youth is like a blooming flower, although it is short but gorgeous'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is the body of youth like a blooming flower?"
+    },
+    {
+        "question": "The body is youth like a blooming flower, although it is short but gorgeous",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "Metaphor is like a blooming flower in blooming flowers. Although it is short but gorgeous",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the body and the metaphor is that the youth is beautiful and short -lived, full of vitality and vitality.Youth is like a blooming flower, although it is short but gorgeous",
+        "answers": "By the way, this metaphor emphasizes the precious and short -lived youth by comparing youth to flowers, making people cherish youthful time more."
+    },
+    {
+        "question": "Please appreciate this metaphorical sentence: 'Life is like a trip, sometimes wind and sun, sometimes stormy and rainy'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is the body of life like a trip?"
+    },
+    {
+        "question": "The ontology is life and life like a trip, sometimes the wind and the sun, sometimes the storm",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "Metaphor is like a travel life, sometimes wind and sunny, sometimes storms and rain",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the ontology and the metaphor is full of undulating and changing journey of life.Life is like a trip, sometimes wind and sunny, sometimes storm",
+        "answers": "By the way, this metaphor emphasizes the uncertainty and diversity of life by comparing life to travel, making people feel the richness and complexity of life."
+    },
+    {
+        "question": "Please appreciate this metaphorical sentence: 'His words are like spring wind and rain, moisturizing every soul that desires knowledge'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is his words like the body of spring wind and rain?"
+    },
+    {
+        "question": "The body is his words. His words are like spring wind and rain, moisturizing every soul that desires knowledge",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "The metaphor is the spring wind and rain.",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the ontology and the metaphor is that his words are as warm as spring breeze, moisturizing the soul eager to learn, and making people feel the charm of knowledge.His words are like the spring wind and rain, moisturizing every soul that desires knowledge",
+        "answers": "By the way, this metaphor emphasizes the warmth and nourishment of education and knowledge by comparing the words of the spring breeze, making people realize the power of language."
+    },
+    {
+        "question": "Please appreciate this metaphor: 'Hope is like the stars in the night sky, although small but can guide the direction'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is the body of the stars in the night sky?"
+    },
+    {
+        "question": "The body is like the stars in the night sky, although small but can guide the direction",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "Metaphor is a star in the night sky. Hope is like a star in the night sky. Although small, it can guide the direction.",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the ontology and the metaphor is that although it is small, it guides us in the dark like a star.I hope it ’s like the stars in the night sky, although small but can guide the direction",
+        "answers": "By the way, this metaphor emphasizes the importance of hopes in adversity by comparing hope to the stars, making people feel the light of hope."
+    },
+    {
+        "question": "Please appreciate this metaphorical sentence: 'His wisdom is as deep as the ocean, which is breathtaking'",
+        "answers": "Appreciate the metaphorical sentences to analyze the ontology, metaphor, and effect.So what is his smart and wise body like the ocean?"
+    },
+    {
+        "question": "His body is his cleverness and wisdom.",
+        "answers": "Very good, so what is the metaphor?"
+    },
+    {
+        "question": "The body is the ocean and his wisdom is as deep as the ocean, which is amazing",
+        "answers": "Very good, what is the relationship between the ontology and metaphor?"
+    },
+    {
+        "question": "The relationship between the ontology and the metaphor is that his intelligence is unpredictable, as vast as the ocean, which makes people feel very admirable.His clever and intelligent are as deep as the ocean, which is breathtaking",
+        "answers": "By the way, this metaphor highlights the infiniteness and depth of wisdom by comparing the wisdom and wisdom to the ocean, which makes people feel the unique charm of the wise."
+    },
+    {
+        "question": "Appreciation of this sentence: 'Night fell, the stars flickered, as if they were quietly telling something.'",
+        "answers": "Analyze the sentences to analyze the subject, predicate, objects, and complement.So what is the subject of night falling?"
+    },
+    {
+        "question": "The subject is that the night falls, and the stars are flashing, as if quietly telling something.",
+        "answers": "Very good, so what is the predicate?"
+    },
+    {
+        "question": "The predicate is that the night comes, and the stars are flickering, as if quietly telling something.",
+        "answers": "Appreciating sentences also need to analyze the methods."
+    },
+    {
+        "question": "The technique is anthropomorphic rhetoric technique",
+        "answers": "Very good, so what kind of personality is it?"
+    },
+    {
+        "question": "Talking about the night, star personality",
+        "answers": "Very good, so what is the effect?"
+    },
+    {
+        "question": "It shows that the quiet night of the night comes, and the stars are flashing, as if they are quietly telling something.",
+        "answers": "By the way, this sentence fell through the night, and the stars flickered, as if quietly telling something, making people feel the quiet after the night fall."
+    },
+    {
+        "question": "Appreciation of this sentence: 'Spring is here, flowers are scrambling to open, as if holding a grand celebration.'",
+        "answers": "Analyze the sentences to analyze the subject, predicate, objects, and complement.So what is the subject of spring?"
+    },
+    {
+        "question": "The subject is that spring and spring are here, and flowers are scrambling to open, as if holding a grand celebration.",
+        "answers": "Very good, so what is the predicate?"
+    },
+    {
+        "question": "The predicate is that the spring is here, and the flowers are scrambling to open, as if holding a grand celebration.",
+        "answers": "Appreciating sentences also need to analyze the methods."
+    },
+    {
+        "question": "The technique is anthropomorphic rhetoric technique",
+        "answers": "Very good, so what kind of personality is it?"
+    },
+    {
+        "question": "Fight for opening up the flower personality",
+        "answers": "Very good, what is the effect?"
+    },
+    {
+        "question": "It reflects the vitality and vitality of spring coming, and the flowers are scrambling to open, as if holding a grand celebration.",
+        "answers": "By the way, this sentence conveys the vitality and joy of spring through the arrival of spring and the bloom of flowers."
+    },
+    {
+        "question": "Appreciation of this sentence: 'Autumn wind rises, leaves fly, as if telling the story of the past.'",
+        "answers": "Analyze the sentences to analyze the subject, predicate, objects, and complement.So what is the subject of autumn wind?"
+    },
+    {
+        "question": "The subject is the autumn wind and autumn wind, and the leaves are flying, as if telling the story of the past.",
+        "answers": "Very good, so what is the predicate?"
+    },
+    {
+        "question": "The predicate is the beginning of the autumn wind and the leaves flying, as if telling the story of the past.",
+        "answers": "Appreciation sentences need to analyze the methods."
+    },
+    {
+        "question": "The technique is a metaphorical rhetoric method",
+        "answers": "Very good, what is the object of metaphor?"
+    },
+    {
+        "question": "Tell the story to the story as a story",
+        "answers": "Very good, what is the effect?"
+    },
+    {
+        "question": "Expressing autumn's sentimental and nostalgic autumn winds, leaves flying, as if telling the story of the past.",
+        "answers": "By the way, this sentence conveys the sentimental feelings of autumn through the description of autumn wind and fallen leaves."
+    },
+    {
+        "question": "Appreciation of this sentence: 'Spring is here, flowers are scrambling to open, as if holding a grand celebration.'",
+        "answers": "Appreciation sentences need to analyze the methods."
+    },
+    {
+        "question": "The technique is anthropomorphic rhetoric technique",
+        "answers": "Very good, so what kind of personality is it?"
+    },
+    {
+        "question": "Fight for opening up the flower personality",
+        "answers": "Very good, what is the effect?"
+    },
+    {
+        "question": "It reflects the vitality and vitality of spring coming, and the flowers are scrambling to open, as if holding a grand celebration.",
+        "answers": "By the way, this sentence conveys the vitality and joy of spring through the arrival of spring and the bloom of flowers."
+    },
+    {
+        "question": "Appreciation of this sentence: 'Autumn wind rises, leaves fly, as if telling the story of the past.'",
+        "answers": "Appreciation sentences need to analyze the methods."
+    },
+    {
+        "question": "The technique is a metaphorical rhetoric method",
+        "answers": "Very good, what is the object of metaphor?"
+    },
+    {
+        "question": "Tell the story to the story as a story",
+        "answers": "Very good, what is the effect?"
+    },
+    {
+        "question": "Expressing autumn's sentimental and nostalgic autumn winds, leaves flying, as if telling the story of the past.",
+        "answers": "By the way, this sentence conveys the sentimental feelings of autumn through the description of autumn wind and fallen leaves."
+    },
+    {
+        "question": "Appreciation of this sentence: 'Summer sunlight sprinkle on the ground through the leaves, like a layer of golden glory.'",
+        "answers": "Appreciation sentences need to analyze the methods."
+    },
+    {
+        "question": "The technique is a metaphorical rhetoric method",
+        "answers": "Very good, what is the object of metaphor?"
+    },
+    {
+        "question": "Glorious than gold sprinkle",
+        "answers": "Very good, what is the effect?"
+    },
+    {
+        "question": "Show the warmth and beautiful summer sun on the ground through the leaves, like a layer of golden glory.",
+        "answers": "By the way, this sentence conveys the warmth of summer and the beauty of nature through the description of the sun."
+    },
+    {
+        "question": "Appreciation of this sentence: 'Winter snow is flying, as if the white feathers fall on the ground.'",
+        "answers": "Appreciating sentences also need to analyze the methods."
+    },
+    {
+        "question": "The technique is a metaphorical rhetoric method",
+        "answers": "Very good, what is the object of metaphor?"
+    },
+    {
+        "question": "Snow is compared with white feathers",
+        "answers": "Very good, what is the effect?"
+    },
+    {
+        "question": "Showing the tranquility and beautiful winter snow flying, as if the white feathers fell on the ground.",
+        "answers": "By the way, this sentence conveys the tranquility and beauty of winter through the description of snow."
+    },
+    {
+        "question": "Appreciation of this sentence: 'Rain drops tap the window gently, seemingly playing a soft music.'",
+        "answers": "Appreciating sentences also need to analyze the methods."
+    },
+    {
+        "question": "The technique is anthropomorphic rhetoric technique",
+        "answers": "Very good, so what kind of personality is it?"
+    },
+    {
+        "question": "Rain drops are personified into performance music",
+        "answers": "Very good, what is the effect?"
+    },
+    {
+        "question": "The softness and rhythm of the rainy day show the windy drops gently hit the window, and it seems to be playing a soft music.",
+        "answers": "By the way, this sentence conveys the softness and rhythm of rainy days through the description of raindrops."
+    },
+    {
+        "question": "Appreciation of this sentence: 'The sun in the morning is sprinkled on the ground, and everything recovers, as if telling the hope of the new life.'",
+        "answers": "Appreciating sentences also need to analyze the methods."
+    },
+    {
+        "question": "The method is anthropomorphic and metaphorical rhetoric technique",
+        "answers": "Very good, so what kind of personality is it?"
+    },
+    {
+        "question": "All things are personally described as hopeful",
+        "answers": "Very good, what is the effect?"
+    },
+    {
+        "question": "Showing the hope of spring and the sun in the early morning on the ground, everything recovers, as if telling the hope of the new life.",
+        "answers": "By the way, this sentence conveys the hope and vitality of spring through the description of the recovery of the sun and everything."
+    },
+    {
+        "question": "Can you tell me how to do mathematics questions?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Can you help me solve this programming problem?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "I want to know more about quantum mechanics, can you introduce it?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Can you tell me a story about Einstein?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "How do I write a scientific paper?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Do you know how to create a class in Python?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Can you tell me the derivation process of this formula?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "How do I choose the right machine learning model?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "I want to learn how to invest in the stock market. Can you give me some suggestions?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Can you explain the theory of relativity?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "How to improve my oral English ability?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Can you give me some books about psychology?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "How to increase my followers on social media?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Can you tell me some details about historical events?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "How do I create a website?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Can you help me analyze this article?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Can you tell me how to analyze data?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "How to make a business plan?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Can you explain the basic principles of the blockchain?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "I want to know the overfitting problem in machine learning. Can you explain it?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "How to improve my programming skills?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Can you tell me how to design a database?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "I want to learn how to perform user experience design. Can you give me some suggestions?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "How to communicate effective in the team?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Can you give me some recommendations about self -improvement?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "How do I do project management?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Can you tell me about environmental protection?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "I want to learn how to write well, can you give me some suggestions?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "How to create a successful brand?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Can you analyze the current economic situation?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "How do I do effective time management?",
+        "answers": "Sorry, I won't be this problem."
+    },
+    {
+        "question": "Can you tell me some suggestions about healthy diet?",
+        "answers": "Sorry, I won't be this problem."
+    }
+]
