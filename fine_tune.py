@@ -60,7 +60,7 @@ def tokenize_function(examples):
 
 def load_data():
     # 加载数据集
-    fine_tune_data = datasets.load_dataset('json', data_files='data_translated.json')['train']
+    fine_tune_data = datasets.load_dataset('json', data_files='data_translated.json')['train'].select([0, 10])
     tokenized_dataset = fine_tune_data.map(tokenize_function, batched=True, batch_size=1, drop_last_batch=True)
 
     # 选择保留的列
@@ -108,7 +108,7 @@ def train_model():
     )
     trainer.train()
 
-train_model()
+trainer=train_model()
 
 # 评估模型
 trainer.evaluate()
