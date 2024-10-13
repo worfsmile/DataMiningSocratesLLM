@@ -1009,7 +1009,7 @@
     },
     {
         "question": "with an adjacency matrix, it takes O(1) time to check for an edge, while with an adjacency list, it takes O(k), where k is the number of neighbors of a vertex.",
-        "answers": "That's right! Now, let\u9225\u6a9a dive into graph traversal algorithms. Can you describe how depth-first search (DFS) works?"
+        "answers": "That's right! Now, let鈥檚 dive into graph traversal algorithms. Can you describe how depth-first search (DFS) works?"
     },
     {
         "question": "DFS explores a graph by starting at a source vertex and going as deep as possible down one path before backtracking. It uses a stack to remember which vertices to visit next.",
@@ -1085,7 +1085,7 @@
     },
     {
         "question": "it's preferable for dense graphs or when you need to calculate the shortest paths between multiple pairs of vertices.",
-        "answers": "Exactly! Now let\u9225\u6a9a talk about minimum spanning tree algorithms. Can you explain Prim's algorithm?"
+        "answers": "Exactly! Now let鈥檚 talk about minimum spanning tree algorithms. Can you explain Prim's algorithm?"
     },
     {
         "question": "Prim's algorithm builds the minimum spanning tree by starting from an arbitrary vertex and adding the nearest vertex not yet in the tree, repeating until all vertices are included.",
@@ -1097,7 +1097,7 @@
     },
     {
         "question": "Kruskal's algorithm is often more efficient for sparse graphs since it focuses on edges rather than vertices.",
-        "answers": "That\u9225\u6a9a a good point! Now, what about depth-first search (DFS) and breadth-first search (BFS)? How are they used in graph algorithms?"
+        "answers": "That鈥檚 a good point! Now, what about depth-first search (DFS) and breadth-first search (BFS)? How are they used in graph algorithms?"
     },
     {
         "question": "DFS is often used for pathfinding and connectivity checking, while BFS is used for finding the shortest path in unweighted graphs.",
@@ -1264,7 +1264,7 @@
         "answers": "Good idea! Can you show me how you would implement the `Node` class?"
     },
     {
-        "question": "Sure! Here\u9225\u6a9a an example: `class Node: def __init__(self, data): self.data = data; self.next = None`.",
+        "question": "Sure! Here鈥檚 an example: `class Node: def __init__(self, data): self.data = data; self.next = None`.",
         "answers": "Great! Now, how would you implement the `LinkedList` class with an insertion method?"
     },
     {
@@ -1297,7 +1297,7 @@
     },
     {
         "question": "I would return `self.items.pop(0)` to remove the first item.",
-        "answers": "Good job! Now, let\u9225\u6a9a move on to binary trees. How would you implement a binary tree in Python?"
+        "answers": "Good job! Now, let鈥檚 move on to binary trees. How would you implement a binary tree in Python?"
     },
     {
         "question": "I would create a `Node` class with `left` and `right` attributes, along with a `BinaryTree` class to manage the nodes.",
@@ -1308,7 +1308,7 @@
         "answers": "That's a solid implementation! How would you implement the `_insert_recursively` method?"
     },
     {
-        "question": "I would check if the data is less than the current node\u9225\u6a9a data to go left, or right otherwise.",
+        "question": "I would check if the data is less than the current node鈥檚 data to go left, or right otherwise.",
         "answers": "Great thinking! Finally, can you explain how you would implement an in-order traversal method?"
     },
     {
@@ -1348,7 +1348,7 @@
         "answers": "Correct! Can you provide a code snippet for the `get` method?"
     },
     {
-        "question": "Of course! Here\u9225\u6a9a the code: `def get(self, key): index = hash(key) % self.size; for k, v in self.table[index]: if k == key: return v; return None`.",
+        "question": "Of course! Here鈥檚 the code: `def get(self, key): index = hash(key) % self.size; for k, v in self.table[index]: if k == key: return v; return None`.",
         "answers": "That's perfect! What about implementing the `remove` method to delete a key-value pair?"
     },
     {
@@ -1481,19 +1481,19 @@
     },
     {
         "question": "Can you provide a complete implementation of a linked list in Python?",
-        "answers": "Sure! Let's start with the `Node` class. It represents an individual element in the linked list. Would you like to see how it\u9225\u6a9a defined?"
+        "answers": "Sure! Let's start with the `Node` class. It represents an individual element in the linked list. Would you like to see how it鈥檚 defined?"
     },
     {
         "question": "Yes, please show me the `Node` class.",
         "answers": "Here it is: `class Node: def __init__(self, data): self.data = data; self.next = None`. What do you think about this structure?"
     },
     {
-        "question": "It looks good! What\u9225\u6a9a next?",
+        "question": "It looks good! What鈥檚 next?",
         "answers": "Next, we need the `LinkedList` class. This class will manage the nodes. Would you like to see how to define it?"
     },
     {
-        "question": "Yes, let\u9225\u6a9a see the `LinkedList` class.",
-        "answers": "Here\u9225\u6a9a a basic outline: `class LinkedList: def __init__(self): self.head = None`. What do you think this initialization does?"
+        "question": "Yes, let鈥檚 see the `LinkedList` class.",
+        "answers": "Here鈥檚 a basic outline: `class LinkedList: def __init__(self): self.head = None`. What do you think this initialization does?"
     },
     {
         "question": "It sets up an empty linked list with no nodes.",
@@ -1501,7 +1501,7 @@
     },
     {
         "question": "I would create a new node and adjust the pointers accordingly.",
-        "answers": "That's correct! Here\u9225\u6a9a how you can do it: `def insert_at_beginning(self, new_data): new_node = Node(new_data); new_node.next = self.head; self.head = new_node`."
+        "answers": "That's correct! Here鈥檚 how you can do it: `def insert_at_beginning(self, new_data): new_node = Node(new_data); new_node.next = self.head; self.head = new_node`."
     },
     {
         "question": "Looks good! What about inserting at the end of the list?",
@@ -1509,19 +1509,19 @@
     },
     {
         "question": "I would traverse the list until I find the last node and then link the new node to it.",
-        "answers": "Exactly! Here\u9225\u6a9a the method: `def insert_at_end(self, new_data): new_node = Node(new_data); if self.head is None: self.head = new_node; return; last = self.head; while last.next: last = last.next; last.next = new_node`."
+        "answers": "Exactly! Here鈥檚 the method: `def insert_at_end(self, new_data): new_node = Node(new_data); if self.head is None: self.head = new_node; return; last = self.head; while last.next: last = last.next; last.next = new_node`."
     },
     {
         "question": "That seems straightforward! What about deleting a node?",
         "answers": "Good question! Do you want to delete a node by its value or by its position?"
     },
     {
-        "question": "Let\u9225\u6a9a start with deleting by value.",
+        "question": "Let鈥檚 start with deleting by value.",
         "answers": "To delete a node by value, we first need to find the node and then adjust the pointers. How do you think we can implement this?"
     },
     {
         "question": "I would traverse the list, and if I find the value, I would update the previous node's `next` to skip the node being deleted.",
-        "answers": "Exactly! Here\u9225\u6a9a the implementation: `def delete_node(self, key): temp = self.head; if temp and temp.data == key: self.head = temp.next; temp = None; return; while temp and temp.data != key: prev = temp; temp = temp.next; if temp is None: return; prev.next = temp.next; temp = None`."
+        "answers": "Exactly! Here鈥檚 the implementation: `def delete_node(self, key): temp = self.head; if temp and temp.data == key: self.head = temp.next; temp = None; return; while temp and temp.data != key: prev = temp; temp = temp.next; if temp is None: return; prev.next = temp.next; temp = None`."
     },
     {
         "question": "What about deleting by position?",
@@ -1529,7 +1529,7 @@
     },
     {
         "question": "I would use a loop to go to the specified index and adjust the pointers accordingly.",
-        "answers": "That's correct! Here\u9225\u6a9a one way to implement it: `def delete_at_position(self, position): if self.head is None: return; temp = self.head; if position == 0: self.head = temp.next; temp = None; return; for i in range(position - 1): temp = temp.next; if temp is None: return; if temp.next is None: return; next = temp.next.next; temp.next = next`."
+        "answers": "That's correct! Here鈥檚 one way to implement it: `def delete_at_position(self, position): if self.head is None: return; temp = self.head; if position == 0: self.head = temp.next; temp = None; return; for i in range(position - 1): temp = temp.next; if temp is None: return; if temp.next is None: return; next = temp.next.next; temp.next = next`."
     },
     {
         "question": "Great! Now, how can we traverse the linked list to display its elements?",
@@ -1537,7 +1537,7 @@
     },
     {
         "question": "I would loop through the nodes until I reach the end and print each node's value.",
-        "answers": "Exactly! Here\u9225\u6a9a how you can do it: `def print_list(self): temp = self.head; while temp: print(temp.data, end=' -> '); temp = temp.next; print('None')`."
+        "answers": "Exactly! Here鈥檚 how you can do it: `def print_list(self): temp = self.head; while temp: print(temp.data, end=' -> '); temp = temp.next; print('None')`."
     },
     {
         "question": "This is very informative! What are the time complexities for these operations?",
@@ -1998,5 +1998,2575 @@
     {
         "question": "it might be slower compared to other methods if we're not careful with memory usage?",
         "answers": "That's a good observation! While post-order traversal is efficient for certain tasks, if not managed correctly, it can lead to unnecessary overhead. Optimizing memory usage is crucial, especially when dealing with large trees. Would you like to explore any further applications or algorithms related to post-order traversal?"
+    },
+    {
+        "question": "Can you explain how you might start coding an array in a programming language like Python?",
+        "answers": "What do you think are the basic steps to declare and initialize an array in Python?"
+    },
+    {
+        "question": "I would initialize it as a list, like arr = [1, 2, 3].",
+        "answers": "That's correct! What if I asked you to implement an array that dynamically changes in size, adding or removing elements? How would you approach it?"
+    },
+    {
+        "question": "I would use list methods like append() and pop() to add or remove elements.",
+        "answers": "Exactly! Python's list is dynamic by nature. Could you think of any drawbacks in terms of performance when resizing arrays?"
+    },
+    {
+        "question": "How would you start implementing a linked list in Python?",
+        "answers": "What do you think the basic building blocks of a linked list are?"
+    },
+    {
+        "question": "I think a linked list has nodes with values and references to the next node.",
+        "answers": "Exactly! How would you define a Node class in Python to represent these individual elements of the linked list?"
+    },
+    {
+        "question": "I would create a class Node with attributes for value and next like this: class Node: def __init__(self, value): self.value = value; self.next = None.",
+        "answers": "Great! Now, how would you build a class for the entire linked list that allows you to insert and delete nodes?"
+    },
+    {
+        "question": "How would you approach coding a stack using Python?",
+        "answers": "What if I suggested that a stack could be implemented using a list? How might that work?"
+    },
+    {
+        "question": "I would use append() to push elements onto the stack and pop() to remove them.",
+        "answers": "That's right! Stacks follow the Last In First Out (LIFO) principle. What do you think are the time complexities for pushing and popping in this list-based implementation?"
+    },
+    {
+        "question": "I think both operations would be O(1) because append() and pop() work from the end of the list.",
+        "answers": "Exactly! Now, can you think of any scenarios where this list-based implementation might not be ideal?"
+    },
+    {
+        "question": "How would you begin coding a queue in Python?",
+        "answers": "Do you think you could use a list or deque for this? How might they differ in terms of performance?"
+    },
+    {
+        "question": "I think I could use a list with append() to enqueue and pop(0) to dequeue, but deque might be more efficient.",
+        "answers": "You're right! While lists work, deque is better for queues as it allows O(1) insertion and removal from both ends. Why do you think deque would be preferred in this case?"
+    },
+    {
+        "question": "Because removing from the front of a list with pop(0) is O(n), but deque allows O(1) for both enqueue and dequeue.",
+        "answers": "Exactly! For performance reasons, deque is the better choice. Can you think of a scenario where a queue is the most suitable data structure to use?"
+    },
+    {
+        "question": "How would you implement a binary tree in Python?",
+        "answers": "What if I told you a binary tree could be built with nodes similar to a linked list? How might you structure the Node class?"
+    },
+    {
+        "question": "I would give the Node class a value and two references, one for the left child and one for the right child.",
+        "answers": "Exactly! How would you implement a method to insert a new value into the binary tree?"
+    },
+    {
+        "question": "I would create an insert method that recursively finds the correct position based on whether the value is smaller or larger than the current node.",
+        "answers": "Great approach! What do you think are the advantages and disadvantages of using a binary search tree for data storage?"
+    },
+    {
+        "question": "How do you create an array in Python?",
+        "answers": "Do you think Python has a built-in array type, or would you use something else?"
+    },
+    {
+        "question": "I’d use a list to make an array in Python, right?",
+        "answers": "Exactly! Python uses lists like arrays. Can you show me how you'd create a list with a few numbers?"
+    },
+    {
+        "question": "Sure, I’d do something like this: my_list = [1, 2, 3, 4].",
+        "answers": "Perfect! Now, how would you add a new element to this list, or 'array'?"
+    },
+    {
+        "question": "How do you add items to an array in Python?",
+        "answers": "Would you use a specific method to append new elements?"
+    },
+    {
+        "question": "Yeah, I’d use append(), like my_list.append(5).",
+        "answers": "Exactly! What if you wanted to add multiple elements at once? Do you know which method to use for that?"
+    },
+    {
+        "question": "I think I’d use extend(), right?",
+        "answers": "Right! extend() is great for adding more than one item at once. Do you know how to remove elements from a list?"
+    },
+    {
+        "question": "How do you remove elements from an array in Python?",
+        "answers": "What do you think the method would be to remove an item?"
+    },
+    {
+        "question": "I’d use pop() to remove the last element, or remove() to delete a specific one.",
+        "answers": "Exactly! What’s the difference between pop() and remove() when it comes to removing elements?"
+    },
+    {
+        "question": "pop() removes by position, and remove() removes by value, right?",
+        "answers": "That’s correct! Can you think of a situation where pop() might be more useful than remove()?"
+    },
+    {
+        "question": "How would you start coding a linked list in Python?",
+        "answers": "Do you know what the basic building block of a linked list is?"
+    },
+    {
+        "question": "I think it’s called a node, right?",
+        "answers": "Exactly! Each node stores data and a reference to the next node. How would you create a class for a node?"
+    },
+    {
+        "question": "I’d create a class with two attributes: value and next, like this: class Node: def __init__(self, value): self.value = value; self.next = None.",
+        "answers": "Perfect! Now that you’ve got your Node class, how would you set up a linked list that connects these nodes?"
+    },
+    {
+        "question": "How do you build a linked list in Python using that Node class?",
+        "answers": "What’s your first step in creating a linked list structure?"
+    },
+    {
+        "question": "I’d create a LinkedList class with a head attribute pointing to the first node.",
+        "answers": "Exactly! The head points to the start of the list. How would you insert a new node at the end of the list?"
+    },
+    {
+        "question": "I’d traverse the list from the head and add the new node when I reach the end.",
+        "answers": "That’s right! Can you show how you’d implement this in code?"
+    },
+    {
+        "question": "How do you delete a node in a linked list?",
+        "answers": "What do you think the basic steps are to remove a node?"
+    },
+    {
+        "question": "I’d find the node I want to delete and update the previous node’s next reference to skip it.",
+        "answers": "Correct! What happens if the node you want to delete is the head of the list?"
+    },
+    {
+        "question": "In that case, I’d update the head to point to the next node.",
+        "answers": "Exactly! That’s how you handle deletion when the node is at the beginning. Can you think of a situation where a linked list is better than an array?"
+    },
+    {
+        "question": "How do you start coding a tree in Python?",
+        "answers": "Do you know what the basic component of a tree is called?"
+    },
+    {
+        "question": "It’s called a node, right?",
+        "answers": "Exactly! Just like in a linked list, a tree has nodes, but each node can have more than one child. How would you define a Node class for a tree?"
+    },
+    {
+        "question": "I’d create a class with a value and a list of children, like this: class Node: def __init__(self, value): self.value = value; self.children = [].",
+        "answers": "Perfect! Now that you’ve got your Node class, how would you create a simple tree with one root and a few children?"
+    },
+    {
+        "question": "How do you build a tree structure in Python using that Node class?",
+        "answers": "What would be your first step in creating a tree?"
+    },
+    {
+        "question": "I’d create a root node, then add other nodes as its children using the children list.",
+        "answers": "Exactly! Can you show how you’d add two children to the root node?"
+    },
+    {
+        "question": "I’d do something like this: root = Node('root'); child1 = Node('child1'); child2 = Node('child2'); root.children.append(child1); root.children.append(child2).",
+        "answers": "Great! Now that you've created a tree, how would you traverse it, for example, using depth-first search (DFS)?"
+    },
+    {
+        "question": "How do you traverse a tree in Python?",
+        "answers": "Do you think you should use recursion or an iterative approach for traversing?"
+    },
+    {
+        "question": "I’d use recursion to visit each node, starting with the root and then its children.",
+        "answers": "Exactly! Recursion is very useful for tree traversal. How would you write a simple DFS function for this?"
+    },
+    {
+        "question": "I’d write something like: def dfs(node): print(node.value); for child in node.children: dfs(child).",
+        "answers": "Perfect! Now, can you think of a situation where a tree might be more useful than a linked list?"
+    },
+    {
+        "question": "How would you start coding a binary tree in Python?",
+        "answers": "Do you know what makes a binary tree different from other trees?"
+    },
+    {
+        "question": "A binary tree has at most two children per node, right?",
+        "answers": "Exactly! Each node can have a left and right child. How would you define a Node class for a binary tree?"
+    },
+    {
+        "question": "I’d create a class with left and right attributes, like this: class Node: def __init__(self, value): self.value = value; self.left = None; self.right = None.",
+        "answers": "Perfect! Now that you’ve defined the node, how would you create a binary tree with a root and two children?"
+    },
+    {
+        "question": "How do you add nodes to a binary tree in Python?",
+        "answers": "What would be your approach to connecting child nodes to a root node?"
+    },
+    {
+        "question": "I’d create the root and then set its left and right attributes, like this: root = Node('root'); root.left = Node('left'); root.right = Node('right').",
+        "answers": "Exactly! That’s how you assign children to a node. Now, how would you traverse this binary tree using in-order traversal?"
+    },
+    {
+        "question": "How do you perform in-order traversal in a binary tree?",
+        "answers": "Do you think you should visit the left subtree, the node itself, or the right subtree first?"
+    },
+    {
+        "question": "I’d visit the left subtree, then the node, then the right subtree.",
+        "answers": "That’s correct! How would you write a recursive function to perform in-order traversal?"
+    },
+    {
+        "question": "I’d write something like this: def in_order(node): if node: in_order(node.left); print(node.value); in_order(node.right).",
+        "answers": "Perfect! Now, how would you insert a new value into a binary search tree (BST)?"
+    },
+    {
+        "question": "How do you insert a value into a binary search tree?",
+        "answers": "Would you compare the value with the node's value to decide where to insert it?"
+    },
+    {
+        "question": "Yes, I’d compare the value. If it’s smaller, I’d insert it in the left subtree; if it’s larger, in the right subtree.",
+        "answers": "Exactly! How would you write the code to insert a value into a BST?"
+    },
+    {
+        "question": "I’d write something like: def insert(node, value): if node is None: return Node(value); if value < node.value: node.left = insert(node.left, value); else: node.right = insert(node.right, value); return node.",
+        "answers": "Perfect! Now, how would you delete a node from a binary search tree while keeping the tree structure valid?"
+    },
+    {
+        "question": "How would you start coding a graph in Python?",
+        "answers": "Do you know what the basic components of a graph are?"
+    },
+    {
+        "question": "A graph has vertices (or nodes) and edges that connect them, right?",
+        "answers": "Exactly! A graph is a collection of nodes (vertices) connected by edges. How would you represent a graph in Python, using something like an adjacency list?"
+    },
+    {
+        "question": "I’d use a dictionary where keys are nodes and values are lists of connected nodes, like this: graph = { 'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A'], 'D': ['B'] }.",
+        "answers": "Perfect! That’s a simple adjacency list representation. Now, how would you add an edge between two nodes in this graph?"
+    },
+    {
+        "question": "How do you add an edge to a graph in Python?",
+        "answers": "What would be your first step if you wanted to add an edge between two nodes?"
+    },
+    {
+        "question": "I’d update the adjacency list for both nodes, like this: graph['A'].append('E'); graph['E'] = ['A'].",
+        "answers": "Exactly! You’d update both nodes to reflect the connection. Now, how would you traverse this graph using breadth-first search (BFS)?"
+    },
+    {
+        "question": "How do you implement breadth-first search (BFS) for a graph?",
+        "answers": "Would you use a queue to explore nodes level by level?"
+    },
+    {
+        "question": "Yes, I’d use a queue. Start from a node, explore its neighbors, then move to the next level.",
+        "answers": "That’s right! How would you write a BFS function to explore all nodes starting from a given node?"
+    },
+    {
+        "question": "I’d write something like: def bfs(graph, start): visited = set(); queue = [start]; while queue: node = queue.pop(0); if node not in visited: print(node); visited.add(node); queue.extend([n for n in graph[node] if n not in visited]).",
+        "answers": "Perfect! Now, how would you implement depth-first search (DFS) for the same graph?"
+    },
+    {
+        "question": "How do you perform depth-first search (DFS) on a graph?",
+        "answers": "Would you use recursion or a stack for DFS?"
+    },
+    {
+        "question": "I’d use recursion to explore as deep as possible before backtracking.",
+        "answers": "Exactly! DFS can be done recursively. How would you write a recursive DFS function?"
+    },
+    {
+        "question": "I’d write something like: def dfs(graph, node, visited=None): if visited is None: visited = set(); if node not in visited: print(node); visited.add(node); for neighbor in graph[node]: dfs(graph, neighbor, visited).",
+        "answers": "Great! That’s how you implement DFS. Now, can you think of a scenario where you would use a graph instead of a tree or a list?"
+    },
+    {
+        "question": "How would you create a hash table in Python?",
+        "answers": "Do you know how a hash table stores key-value pairs?"
+    },
+    {
+        "question": "It stores data in key-value pairs using a hashing function to index the keys.",
+        "answers": "Exactly! In Python, a dictionary acts like a hash table. How would you initialize a simple hash table using a dictionary?"
+    },
+    {
+        "question": "I’d write something like: hash_table = {}.",
+        "answers": "Perfect! Now, how would you add a key-value pair to this hash table?"
+    },
+    {
+        "question": "How do you add a key-value pair to a hash table in Python?",
+        "answers": "Would you just assign a value to a key like in a regular dictionary?"
+    },
+    {
+        "question": "Yes, I’d do something like: hash_table['key'] = 'value'.",
+        "answers": "Exactly! That’s how you store key-value pairs in a hash table. Now, how would you check if a key exists in the hash table?"
+    },
+    {
+        "question": "How do you check if a key is in a hash table?",
+        "answers": "Would you use the 'in' keyword to check for the existence of a key?"
+    },
+    {
+        "question": "Yes, I’d check it like this: 'key' in hash_table.",
+        "answers": "That’s right! Using 'in' works for checking keys. How would you handle collisions in a hash table when two keys hash to the same value?"
+    },
+    {
+        "question": "What do you do when two keys hash to the same value in a hash table?",
+        "answers": "Would you use a technique like chaining or open addressing?"
+    },
+    {
+        "question": "I’d use chaining by storing a list of values at each index in case of collisions.",
+        "answers": "Good choice! Chaining is a common way to handle collisions by using a list at each index. How would you implement chaining in Python using a dictionary?"
+    },
+    {
+        "question": "I’d modify the insertion logic to store a list at each index like this: hash_table.setdefault('key', []).append('value').",
+        "answers": "Perfect! Now you’re handling collisions with chaining. Would you like to explore other methods, like open addressing, for handling collisions?"
+    },
+    {
+        "question": "What is a linked list?",
+        "answers": "Is a linked list a collection of nodes?",
+        "key_word": "list",
+        "num": 0
+    },
+    {
+        "question": "Yes, it's a collection of nodes.",
+        "answers": "How do you access an element in a linked list?",
+        "key_word": "list",
+        "num": 0
+    },
+    {
+        "question": "I need to traverse the list from the head.",
+        "answers": "What happens if you try to access a node that doesn't exist?",
+        "key_word": "list",
+        "num": 0
+    },
+    {
+        "question": "It causes an error or returns null.",
+        "answers": "How do you define a linked list in Python?",
+        "key_word": "list",
+        "num": 0
+    },
+    {
+        "question": "I can define a class for the nodes.",
+        "answers": "How do you add a node to the linked list?",
+        "key_word": "list",
+        "num": 0
+    },
+    {
+        "question": "I can adjust the pointers to include the new node.",
+        "answers": "What is the time complexity of adding a node?",
+        "key_word": "list",
+        "num": 0
+    },
+    {
+        "question": "It's O(1) if added at the head.",
+        "answers": "What about removing a node from the linked list?",
+        "key_word": "list",
+        "num": 0
+    },
+    {
+        "question": "Removing a node can be O(n).",
+        "answers": "Why does it take O(n)?",
+        "key_word": "list",
+        "num": 0
+    },
+    {
+        "question": "I may need to traverse to find the node.",
+        "answers": "How do you iterate through all nodes in a linked list?",
+        "key_word": "list",
+        "num": 0
+    },
+    {
+        "question": "I would use a while loop.",
+        "answers": "Can you write a loop to print all nodes?",
+        "key_word": "list",
+        "num": 0
+    },
+    {
+        "question": "What is a doubly linked list?",
+        "answers": "Is it a type of linked list with two pointers?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "Yes, each node has pointers to both the next and previous nodes.",
+        "answers": "What advantage does a doubly linked list have?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "It allows traversal in both directions.",
+        "answers": "How do you remove a node from a doubly linked list?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "I adjust both the previous and next pointers.",
+        "answers": "What happens if the list is empty?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "Trying to remove a node would result in an error.",
+        "answers": "How do you search for a value in a linked list?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "I traverse the list until I find the value.",
+        "answers": "What is the time complexity of searching in a linked list?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "It's O(n) in the worst case.",
+        "answers": "How can you reverse a linked list?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "I need to adjust the pointers of each node.",
+        "answers": "Can you explain how to reverse a doubly linked list?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "I swap the previous and next pointers for each node.",
+        "answers": "What data structure would you use to implement a linked list?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "I would use a class for the nodes and another for the list.",
+        "answers": "Can you describe the structure of the linked list class?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "How do you implement a singly linked list in Python?",
+        "answers": "What is the first step in the implementation?",
+        "key_word": "program",
+        "num": 4
+    },
+    {
+        "question": "I need to create a Node class to represent each element.",
+        "answers": "What attributes should the Node class have?",
+        "key_word": "program",
+        "num": 4
+    },
+    {
+        "question": "It should have a value and a pointer to the next node.",
+        "answers": "How would you define the Node class?",
+        "key_word": "program",
+        "num": 4
+    },
+    {
+        "question": "I can define it like this: `class Node:` with `__init__` method.",
+        "answers": "What should the `__init__` method contain?",
+        "key_word": "program",
+        "num": 4
+    },
+    {
+        "question": "It should initialize `data` and `next` to None.",
+        "answers": "How do you define the SinglyLinkedList class?",
+        "key_word": "program",
+        "num": 4
+    },
+    {
+        "question": "I define it with a `head` attribute initialized to None.",
+        "answers": "What methods should this class include?",
+        "key_word": "program",
+        "num": 4
+    },
+    {
+        "question": "It should include `insert`, `delete`, and `search` methods.",
+        "answers": "How do you implement the `insert` method at the beginning?",
+        "key_word": "program",
+        "num": 4
+    },
+    {
+        "question": "I create a new node and set its next to the current head.",
+        "answers": "What do you do next in the `insert` method?",
+        "key_word": "program",
+        "num": 4
+    },
+    {
+        "question": "I update the head to the new node.",
+        "answers": "How do you implement the `delete` method?",
+        "key_word": "program",
+        "num": 4
+    },
+    {
+        "question": "I find the previous node and update its next pointer.",
+        "answers": "What if I want to delete the head node?",
+        "key_word": "program",
+        "num": 4
+    },
+    {
+        "question": "I set the head to the next node.",
+        "answers": "How do you implement the `search` method?",
+        "key_word": "program",
+        "num": 4
+    },
+    {
+        "question": "I traverse the list comparing each node's data.",
+        "answers": "What happens if the value is found?",
+        "key_word": "program",
+        "num": 4
+    },
+    {
+        "question": "I return the node or its value.",
+        "answers": "Can you show me a complete example of the implementation?",
+        "key_word": "program",
+        "num": 4
+    },
+    {
+        "question": "What operations can you perform on a singly linked list?",
+        "answers": "Can you list some common operations?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "I can insert, delete, and search for elements.",
+        "answers": "How do you insert a new node at the beginning?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "I create a new node and point it to the current head.",
+        "answers": "What do you do next?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "I update the head to the new node.",
+        "answers": "How do you insert a node at the end?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "I traverse to the last node and link it to the new node.",
+        "answers": "What if the list is empty?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "I set the head to the new node.",
+        "answers": "How do you delete a node from a singly linked list?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "I need to find the node before the one to delete.",
+        "answers": "What happens after finding the previous node?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "I update its next pointer to skip the node to delete.",
+        "answers": "How do you search for a value in a singly linked list?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "I traverse the list until I find the value or reach the end.",
+        "answers": "What is the time complexity for searching?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "It's O(n) in the worst case.",
+        "answers": "How do you print all elements of a singly linked list?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "I use a loop to traverse and print each node's value.",
+        "answers": "Can you write a simple function to do that?",
+        "key_word": "list",
+        "num": 1
+    },
+    {
+        "question": "What are some common algorithms for linked lists?",
+        "answers": "Have you heard about reversing a linked list?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "Yes, how do you reverse a linked list?",
+        "answers": "What approach would you take to reverse it iteratively?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "I would use three pointers: previous, current, and next.",
+        "answers": "What do you do with these pointers?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "I traverse the list, changing the next pointer of each node.",
+        "answers": "What if you want to reverse the list recursively?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "I would call the reverse function recursively until I reach the end.",
+        "answers": "How do you handle the base case in recursion?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "I check if the current node is None or if it's the last node.",
+        "answers": "What is another important algorithm for linked lists?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "Detecting a cycle in a linked list using Floyd's algorithm?",
+        "answers": "What does this algorithm use to detect a cycle?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "It uses two pointers moving at different speeds.",
+        "answers": "What happens if there is a cycle?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "The fast pointer will meet the slow pointer.",
+        "answers": "Can you explain how to find the middle of a linked list?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "I can use two pointers, one moving twice as fast as the other.",
+        "answers": "What do you do when the fast pointer reaches the end?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "The slow pointer will be at the middle of the list.",
+        "answers": "How about merging two sorted linked lists?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "I would compare the heads of both lists and build a new list.",
+        "answers": "What is the time complexity of merging?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "How do you remove duplicates from a linked list?",
+        "answers": "Would you use a hash set for this?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "Yes, I would store seen values in a hash set.",
+        "answers": "How would you traverse the linked list?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "I would use a pointer to track the current node.",
+        "answers": "What do you do when you find a duplicate?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "I would adjust the pointers to skip the duplicate.",
+        "answers": "Can you explain how to split a linked list in half?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "I use two pointers, one moving fast and the other slow.",
+        "answers": "What happens when the fast pointer reaches the end?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "The slow pointer will point to the middle node.",
+        "answers": "How do you find the intersection of two linked lists?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "I can calculate the lengths and adjust the starting point.",
+        "answers": "What if they intersect at a node?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "I would compare nodes until I find the intersection.",
+        "answers": "How do you detect a palindrome in a linked list?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "I can reverse the second half and compare it with the first half.",
+        "answers": "What is another way to detect a palindrome?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "I could use a stack to store the first half and then compare.",
+        "answers": "Can you explain how to flatten a linked list?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "I would recursively flatten each sublist and merge them.",
+        "answers": "What are the challenges in flattening?",
+        "key_word": "linked_list",
+        "num": 0
+    },
+    {
+        "question": "What is an array?",
+        "answers": "Is an array a collection of elements?",
+        "key_word": "array",
+        "num": 0
+    },
+    {
+        "question": "Yes, it's a collection of elements.",
+        "answers": "How do you access an element in an array?",
+        "key_word": "array",
+        "num": 0
+    },
+    {
+        "question": "I use an index to access it.",
+        "answers": "What happens if you use an out-of-bounds index?",
+        "key_word": "array",
+        "num": 0
+    },
+    {
+        "question": "It causes an error or returns undefined.",
+        "answers": "How do you define an array in Python?",
+        "key_word": "array",
+        "num": 0
+    },
+    {
+        "question": "I can use square brackets, like `array = []`.",
+        "answers": "How do you add an element to this array?",
+        "key_word": "array",
+        "num": 0
+    },
+    {
+        "question": "I can use the `append()` method.",
+        "answers": "What is the time complexity of the `append()` operation?",
+        "key_word": "array",
+        "num": 0
+    },
+    {
+        "question": "It's O(1).",
+        "answers": "What about removing an element from the array?",
+        "key_word": "array",
+        "num": 0
+    },
+    {
+        "question": "Removing an element can be O(n).",
+        "answers": "Why does it take O(n)?",
+        "key_word": "array",
+        "num": 0
+    },
+    {
+        "question": "It may require shifting elements.",
+        "answers": "How do you iterate through all elements in an array?",
+        "key_word": "array",
+        "num": 0
+    },
+    {
+        "question": "I would use a for loop.",
+        "answers": "Can you write a loop to print all elements?",
+        "key_word": "array",
+        "num": 0
+    },
+    {
+        "question": "What is a common operation to find an element in an array?",
+        "answers": "Do you know about linear search?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "Yes, linear search checks each element.",
+        "answers": "What is the time complexity of linear search?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(n).",
+        "answers": "What about searching in a sorted array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "We can use binary search.",
+        "answers": "What is the time complexity of binary search?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(log n).",
+        "answers": "How do you sort an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use the `sort()` method in Python.",
+        "answers": "What is the time complexity of the sorting operation?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It depends on the algorithm, often O(n log n).",
+        "answers": "How do you reverse an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use slicing or the `reverse()` method.",
+        "answers": "What is the time complexity of reversing an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(n).",
+        "answers": "How do you append an element to an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use the `append()` method.",
+        "answers": "What is the time complexity of appending to an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(1) on average.",
+        "answers": "How do you remove an element from an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use the `remove()` method or `pop()` method.",
+        "answers": "What is the time complexity of removing an element?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(n) in the worst case.",
+        "answers": "How do you access an element in an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use the index of the element.",
+        "answers": "What is the time complexity of accessing an element?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "What is a common operation to find an element in an array?",
+        "answers": "Do you know about linear search?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "Yes, linear search checks each element.",
+        "answers": "What is the time complexity of linear search?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(n).",
+        "answers": "What about searching in a sorted array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "We can use binary search.",
+        "answers": "What is the time complexity of binary search?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(log n).",
+        "answers": "How do you sort an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use the `sort()` method in Python.",
+        "answers": "What is the time complexity of the sorting operation?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It depends on the algorithm, often O(n log n).",
+        "answers": "How do you reverse an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use slicing or the `reverse()` method.",
+        "answers": "What is the time complexity of reversing an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(n).",
+        "answers": "How do you append an element to an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use the `append()` method.",
+        "answers": "What is the time complexity of appending to an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(1) on average.",
+        "answers": "How do you remove an element from an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use the `remove()` method or `pop()` method.",
+        "answers": "What is the time complexity of removing an element?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(n) in the worst case.",
+        "answers": "How do you access an element in an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use the index of the element.",
+        "answers": "What is the time complexity of accessing an element?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(1).",
+        "answers": "How do you find the length of an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use the `len()` function in Python.",
+        "answers": "What is the time complexity of finding the length?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(1).",
+        "answers": "How do you concatenate two arrays?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use the `+` operator or `extend()` method.",
+        "answers": "What is the time complexity of concatenating arrays?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(n) where n is the length of the array being added.",
+        "answers": "How do you slice an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use slicing syntax, like `array[start:end]`.",
+        "answers": "What is the time complexity of slicing an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(k) where k is the size of the slice.",
+        "answers": "How do you check if an element exists in an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use the `in` keyword.",
+        "answers": "What is the time complexity of checking existence?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(n).",
+        "answers": "How do you clear an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use the `clear()` method.",
+        "answers": "What is the time complexity of clearing an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "It's O(n).",
+        "answers": "How do you create a copy of an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "I can use the `copy()` method.",
+        "answers": "What is the time complexity of copying an array?",
+        "key_word": "array",
+        "num": 1
+    },
+    {
+        "question": "How do you initialize an array in Python?",
+        "answers": "Do you know the syntax for creating an array?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "I can use square brackets, like `array = []`.",
+        "answers": "How do you add elements to this array?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "I can use `append()` method.",
+        "answers": "Can you show me an example?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "Sure! `array.append(5)` adds 5.",
+        "answers": "How do you access an element at a specific index?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "I can use `array[index]` syntax.",
+        "answers": "What will `array[0]` return after adding some elements?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "It returns the first element.",
+        "answers": "How do you remove an element from the array?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "I can use `remove()` or `pop()`.",
+        "answers": "Can you provide an example of using `pop()`?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "Sure! `array.pop(0)` removes the first element.",
+        "answers": "How do you iterate over an array?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "I can use a `for` loop.",
+        "answers": "Can you write a simple loop to print each element?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "Yes! `for item in array: print(item)`.",
+        "answers": "How do you find the length of the array?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "I can use the `len()` function.",
+        "answers": "Can you show an example?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "Sure! `length = len(array)`.",
+        "answers": "How do you sort the array?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "I can use `array.sort()`.",
+        "answers": "How do you reverse the array?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "I can use `array.reverse()`.",
+        "answers": "How do you concatenate two arrays?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "I can use the `+` operator.",
+        "answers": "Can you provide an example?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "Sure! `new_array = array1 + array2`.",
+        "answers": "How do you create a copy of the array?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "I can use `array.copy()`.",
+        "answers": "What if I want to clear the array?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "I can use `array.clear()`.",
+        "answers": "How do you slice an array?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "I can use `array[start:end]`.",
+        "answers": "Can you give an example of slicing?",
+        "key_word": "array",
+        "num": 2
+    },
+    {
+        "question": "How do you analyze the time complexity of graph traversal algorithms?",
+        "answers": "Do you know what factors influence the time complexity in algorithms like BFS or DFS?",
+        "key_word": "graph",
+        "num": 0
+    },
+    {
+        "question": "I think it depends on the number of vertices and edges in the graph.",
+        "answers": "Exactly! For both BFS and DFS, the time complexity is O(V + E), where V is the number of vertices and E is the number of edges. How would you implement BFS in Python?",
+        "key_word": "vertices",
+        "num": 0
+    },
+    {
+        "question": "Can you show me how to implement BFS in Python?",
+        "answers": "What would be your first step in writing the BFS function?",
+        "key_word": "BFS",
+        "num": 0
+    },
+    {
+        "question": "I’d initialize a queue and a set to keep track of visited nodes.",
+        "answers": "Great! Once you have those, how would you start the traversal from a given starting node?",
+        "key_word": "queue",
+        "num": 0
+    },
+    {
+        "question": "I’d enqueue the starting node and mark it as visited, then enter a loop to process each node.",
+        "answers": "Exactly! Can you write a basic BFS function based on that idea?",
+        "key_word": "enqueue",
+        "num": 0
+    },
+    {
+        "question": "Sure! Here’s a simple BFS implementation: def bfs(graph, start): visited = set(); queue = [start]; visited.add(start); while queue: node = queue.pop(0); print(node); for neighbor in graph[node]: if neighbor not in visited: visited.add(neighbor); queue.append(neighbor).",
+        "answers": "That looks good! Now, how would you analyze the space complexity of your BFS implementation?",
+        "key_word": "visited",
+        "num": 0
+    },
+    {
+        "question": "What factors affect the space complexity of BFS?",
+        "answers": "Do you think it’s related to the size of the queue and the set of visited nodes?",
+        "key_word": "complexity",
+        "num": 0
+    },
+    {
+        "question": "Yes, the space complexity is O(V) because we store visited nodes and the queue.",
+        "answers": "Correct! Now, let's switch to DFS. How would you implement DFS iteratively in Python?",
+        "key_word": "DFS",
+        "num": 1
+    },
+    {
+        "question": "How do you write an iterative DFS function?",
+        "answers": "Would you use a stack for the iterative version of DFS?",
+        "key_word": "stack",
+        "num": 1
+    },
+    {
+        "question": "Yes, I’d use a stack to explore nodes. I’d start by pushing the initial node onto the stack.",
+        "answers": "Great approach! Can you write down how you would implement that?",
+        "key_word": "push",
+        "num": 1
+    },
+    {
+        "question": "Here’s my iterative DFS code: def dfs_iterative(graph, start): visited = set(); stack = [start]; while stack: node = stack.pop(); if node not in visited: print(node); visited.add(node); stack.extend([n for n in graph[node] if n not in visited]).",
+        "answers": "That’s an excellent implementation! How would you analyze the time and space complexity for this DFS implementation?",
+        "key_word": "pop",
+        "num": 1
+    },
+    {
+        "question": "The time complexity is O(V + E), and the space complexity is O(V) for the stack and visited nodes.",
+        "answers": "Exactly! Understanding these complexities helps in selecting the right algorithm for specific applications. Do you have any scenarios in mind where BFS or DFS would be particularly useful?",
+        "key_word": "applications",
+        "num": 1
+    },
+    {
+        "question": "What are the common tree traversal algorithms?",
+        "answers": "Do you know about the main types of tree traversal methods, like preorder, inorder, and postorder?",
+        "key_word": "traversal",
+        "num": 2
+    },
+    {
+        "question": "Yes, I know those methods! What do they actually do?",
+        "answers": "Great! Preorder visits the root first, followed by the left subtree, and then the right subtree. How about you describe what inorder traversal does?",
+        "key_word": "subtree",
+        "num": 2
+    },
+    {
+        "question": "Inorder visits the left subtree first, then the root, and finally the right subtree.",
+        "answers": "Exactly! And postorder visits the left subtree, then the right subtree, and finally the root. Can you explain why these traversals might be useful?",
+        "key_word": "postorder",
+        "num": 2
+    },
+    {
+        "question": "They help in accessing the nodes in different orders, which is useful for various applications.",
+        "answers": "Correct! Now, how would you implement preorder traversal recursively in Python?",
+        "key_word": "preorder",
+        "num": 2
+    },
+    {
+        "question": "Can you show me a recursive implementation for preorder traversal?",
+        "answers": "What would be your first step in writing the recursive function?",
+        "key_word": "recursion",
+        "num": 2
+    },
+    {
+        "question": "I’d check if the current node is None, and if it’s not, print the value and recursively call the left and right children.",
+        "answers": "Exactly! Can you write the code for that?",
+        "key_word": "child",
+        "num": 2
+    },
+    {
+        "question": "Sure! Here’s my code: def preorder(node): if node: print(node.value); preorder(node.left); preorder(node.right).",
+        "answers": "That looks great! How would you implement inorder traversal recursively in a similar way?",
+        "key_word": "inorder",
+        "num": 2
+    },
+    {
+        "question": "How do you write the inorder function?",
+        "answers": "Would you follow the same pattern but adjust the order of the print statement?",
+        "key_word": "statement",
+        "num": 2
+    },
+    {
+        "question": "Yes, I’d call inorder on the left child first, then print the node, and finally call it on the right child.",
+        "answers": "Perfect! Can you show the code for the inorder traversal?",
+        "key_word": "child",
+        "num": 2
+    },
+    {
+        "question": "Here’s my inorder code: def inorder(node): if node: inorder(node.left); print(node.value); inorder(node.right).",
+        "answers": "Nice implementation! Now, how would you implement postorder traversal recursively?",
+        "key_word": "traversal",
+        "num": 2
+    },
+    {
+        "question": "What’s the best way to implement postorder traversal in Python?",
+        "answers": "Do you think you could write it by following the same logic but adjusting the print position to the end?",
+        "key_word": "position",
+        "num": 2
+    },
+    {
+        "question": "Yes, I’d call postorder on the left and right children first, and then print the node value.",
+        "answers": "That’s right! Can you share your postorder implementation?",
+        "key_word": "node",
+        "num": 2
+    },
+    {
+        "question": "Here’s my postorder code: def postorder(node): if node: postorder(node.left); postorder(node.right); print(node.value).",
+        "answers": "Well done! Now, how would you discuss the time and space complexity of these tree traversal algorithms?",
+        "key_word": "complexity",
+        "num": 2
+    },
+    {
+        "question": "I think the time complexity is O(N) for all three since you visit every node once.",
+        "answers": "Exactly! And the space complexity is O(H), where H is the height of the tree. How do you think this affects performance in different tree structures?",
+        "key_word": "height",
+        "num": 2
+    },
+    {
+        "question": "What is a tree in data structures?",
+        "answers": "Is it a hierarchical structure with nodes?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "Yes, it consists of nodes connected by edges.",
+        "answers": "What is the top node called?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "It's called the root node.",
+        "answers": "How do you define a leaf node?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "A leaf node has no children.",
+        "answers": "What is the maximum number of children a node can have?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "It depends on the tree type.",
+        "answers": "What is a binary tree?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "A binary tree has at most two children per node.",
+        "answers": "Can you name different types of binary trees?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "There are binary search trees and balanced trees.",
+        "answers": "What is a binary search tree?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "It's a binary tree where left children are smaller and right are larger.",
+        "answers": "How do you traverse a tree?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "I can use in-order, pre-order, or post-order traversal.",
+        "answers": "What is the time complexity of tree traversal?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "It's O(n) for visiting all nodes.",
+        "answers": "What data structure can represent a tree?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "I can use linked nodes or arrays.",
+        "answers": "How do you implement a tree in Python?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "What is a tree in data structures?",
+        "answers": "Is it a hierarchical structure consisting of nodes connected by edges?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "Yes, it has a root node at the top.",
+        "answers": "What does it mean for a node to be a parent or a child?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "A parent node has one or more children nodes.",
+        "answers": "Can you define what a leaf node is?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "A leaf node is a node with no children.",
+        "answers": "What is the maximum number of children a node can have in a general tree?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "In a general tree, a node can have multiple children.",
+        "answers": "What is a binary tree?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "A binary tree is a tree where each node has at most two children.",
+        "answers": "What distinguishes a binary search tree from a regular binary tree?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "In a binary search tree, left children are less than the parent, and right children are greater.",
+        "answers": "How do you traverse a tree?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "I can traverse a tree using in-order, pre-order, or post-order traversal methods.",
+        "answers": "What is the time complexity of these traversals?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "The time complexity for traversing all nodes is O(n).",
+        "answers": "What kind of operations can you perform on trees?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "I can insert, delete, and search for nodes in a tree.",
+        "answers": "How do you implement a tree in Python?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "I can use a class to define a node and use links to connect children.",
+        "answers": "Can you give an example of a tree node implementation?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "Sure! Here's a simple implementation: `class TreeNode:`",
+        "answers": "What attributes would you include in a `TreeNode` class?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "I would include `value`, `left`, and `right` attributes.",
+        "answers": "How do you add a new node to a binary search tree?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "I would compare the new value with the current node and place it accordingly.",
+        "answers": "Can you write a method to insert a node into a binary search tree?",
+        "key_word": "tree",
+        "num": 0
+    },
+    {
+        "question": "What do you think are common operations on a tree?",
+        "answers": "Could inserting a node into a tree be considered one of those operations?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Indeed, insertion is important. How would you describe the process of deleting a node?",
+        "answers": "Do you believe it involves finding the node and adjusting the tree structure?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "That makes sense. Can you elaborate on the three scenarios you might encounter when deleting a node from a binary search tree?",
+        "answers": "Would it be accurate to say they include deleting a leaf node, a node with one child, and a node with two children?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Correct! If you had to handle a node with two children, how might you go about it?",
+        "answers": "Is it reasonable to find the in-order successor or predecessor to replace the deleted node?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "That sounds logical. When searching for a node in a binary search tree, what approach do you think should be taken?",
+        "answers": "Do you agree that comparing the target value with the current node and traversing left or right accordingly is essential?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Yes, that’s a valid point. What do you think the time complexity is for search operations in a balanced binary search tree?",
+        "answers": "Could it be that the time complexity is O(log n)?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Exactly! And when it comes to balancing a tree, what strategies might be employed?",
+        "answers": "Would performing rotations be an effective way to balance a binary search tree?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Absolutely. Now, can you explain what you understand by tree traversal operations?",
+        "answers": "Is it not a method to visit all nodes in a tree in a specific order?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Yes, precisely. Can you identify the various types of tree traversal?",
+        "answers": "Would you say they include in-order, pre-order, post-order, and level-order traversals?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Correct! If I asked you how to implement in-order traversal recursively, what would you say?",
+        "answers": "Would it involve visiting the left subtree, then the current node, and finally the right subtree?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Very insightful! And for pre-order traversal, how would you approach its implementation?",
+        "answers": "Isn't it true that you would visit the current node first, then the left subtree, followed by the right subtree?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "That’s correct! Now, what can you tell me about post-order traversal?",
+        "answers": "Could it be that in post-order, you traverse the left subtree first, then the right subtree, and visit the current node last?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Exactly! And how would you describe level-order traversal?",
+        "answers": "Is it not the process of visiting nodes level by level, typically using a queue?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Well said! How do you find the height of a binary tree?",
+        "answers": "Wouldn't it involve recursively calculating the height of left and right subtrees and taking the maximum?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "That's correct! What do you think is the time complexity for finding the height of a tree?",
+        "answers": "Is it not O(n), where n represents the number of nodes?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Exactly! Now, how might one check if a tree is balanced?",
+        "answers": "Could it be that you check if the height difference between left and right subtrees is at most one for all nodes?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Well stated! What would you define as a binary tree's maximum depth?",
+        "answers": "Is it not the length of the longest path from the root to a leaf node?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Correct! How would you approach converting a binary tree to a linked list?",
+        "answers": "Could performing in-order traversal and adjusting pointers to link the nodes be a solution?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "That's a valid approach! Can you describe the process of tree serialization?",
+        "answers": "Is serialization not the act of converting a tree into a string representation, while deserialization rebuilds it from that string?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Excellent! What do you think is the purpose of tree traversal algorithms?",
+        "answers": "Could they not allow you to visit and process each node in a tree systematically?",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "How do you implement pre-order traversal recursively?",
+        "answers": "How do you think we could implement pre-order traversal recursively? I believe we visit the current node first, then traverse the left subtree, followed by the right subtree.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Can you explain post-order traversal?",
+        "answers": "Can you explain to me what post-order traversal is? In post-order, we traverse the left subtree first, then the right subtree, and visit the current node last.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "What about level-order traversal?",
+        "answers": "What do you know about level-order traversal? Level-order traversal visits nodes level by level, using a queue.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "How do you find the height of a binary tree?",
+        "answers": "How would you find the height of a binary tree? You recursively calculate the height of the left and right subtrees and take the maximum.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "What is the time complexity of finding the height of a tree?",
+        "answers": "What is the time complexity of finding the height of a tree? The time complexity is O(n), where n is the number of nodes.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "How can you check if a tree is balanced?",
+        "answers": "How would you check if a tree is balanced? You can check if the height difference between the left and right subtrees is at most one for all nodes.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "What is a binary tree's maximum depth?",
+        "answers": "What do you understand by a binary tree's maximum depth? It's the length of the longest path from the root to a leaf node.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "How do you convert a binary tree to a linked list?",
+        "answers": "How might one convert a binary tree to a linked list? You can perform in-order traversal and adjust pointers to link the nodes.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Can you describe the process of tree serialization?",
+        "answers": "What can you tell me about tree serialization? Serialization converts a tree into a string representation, while deserialization rebuilds it from that string.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "What is the purpose of tree traversal algorithms?",
+        "answers": "What is the purpose of tree traversal algorithms? They allow you to visit and process each node in a tree systematically.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "What is the difference between a binary tree and a binary search tree?",
+        "answers": "Is it true that a binary search tree has a specific order? Yes, it sorts values in a way.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "How do you insert a node into a binary search tree?",
+        "answers": "Do you start at the root? Yes, then you compare and choose left or right.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "How about deleting a node?",
+        "answers": "What happens if the node has two children? You replace it with its in-order successor.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "How do you search for a value?",
+        "answers": "Do you compare values as you go? Exactly, smaller goes left, larger goes right.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "What is depth-first traversal?",
+        "answers": "Does it explore branches fully before backtracking? Yes, it goes deep into one branch first.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "And breadth-first traversal?",
+        "answers": "It visits all nodes at the current depth, correct? Yes, it goes level by level.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "What is a balanced binary tree?",
+        "answers": "Is it about equal heights of subtrees? Yes, the difference should be at most one.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "How to find the lowest common ancestor?",
+        "answers": "Do you trace paths from both nodes? Yes, until they diverge, that's the ancestor.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "What defines a complete binary tree?",
+        "answers": "Is every level fully filled, except maybe the last? Yes, and nodes are as left as possible.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "Can you explain tree rotation?",
+        "answers": "Is it used to maintain balance? Yes, it rearranges nodes while keeping order.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "What are AVL trees?",
+        "answers": "Are they self-balancing binary search trees? Yes, they ensure height differences are small.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "How do you determine if a tree is a binary search tree?",
+        "answers": "Do you check if each node follows the left < root < right rule? Yes, that ensures proper ordering.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "What is tree height?",
+        "answers": "Is it the longest path from root to leaf? Yes, it measures the tree's depth.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "How do you traverse a tree in order?",
+        "answers": "Do you visit left, root, then right? Yes, that gives a sorted sequence.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "What is the significance of tree serialization?",
+        "answers": "Is it about converting a tree to a string? Yes, and deserialization rebuilds it.",
+        "key_word": "operation",
+        "num": 1
+    },
+    {
+        "question": "How do you define a binary tree node in Python?",
+        "answers": "Do you create a class? Yes, with attributes for value and children.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show me the code for the binary tree node?",
+        "answers": "Sure! You start with `class TreeNode:` and an `__init__` method.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you implement the insert operation in a binary search tree?",
+        "answers": "Do you compare values to decide where to go? Yes, left or right based on comparison.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show the insert function code?",
+        "answers": "Of course! You would have `def insert(self, value):` and then compare values.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How would you implement pre-order traversal?",
+        "answers": "You print the node's value first, right? Then you traverse left and right?",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you provide a sample code for pre-order traversal?",
+        "answers": "Absolutely! It could start with `def preorder(self):` and call recursively.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you find the height of the binary tree?",
+        "answers": "You recursively find the maximum height, correct? Yes, and add one for the current node.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show the height function in code?",
+        "answers": "Sure! It might look like: `def height(self):` and calculate recursively.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you implement the search operation?",
+        "answers": "You compare the target with the current node, right? Yes, and recurse based on that.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you provide the search function code?",
+        "answers": "Certainly! It could be `def search(self, value):` followed by the comparisons.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you define a binary tree node in Python?",
+        "answers": "Do you create a class? Yes, with attributes for value and children.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show me the code for the binary tree node?",
+        "answers": "Sure! You start with `class TreeNode:` and an `__init__` method.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you implement the insert operation in a binary search tree?",
+        "answers": "Do you compare values to decide where to go? Yes, left or right based on comparison.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show the insert function code?",
+        "answers": "Of course! You would have `def insert(self, value):` and then compare values.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How would you implement pre-order traversal?",
+        "answers": "You print the node's value first, right? Then you traverse left and right?",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you provide a sample code for pre-order traversal?",
+        "answers": "Absolutely! It could start with `def preorder(self):` and call recursively.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you find the height of the binary tree?",
+        "answers": "You recursively find the maximum height, correct? Yes, and add one for the current node.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show the height function in code?",
+        "answers": "Sure! It might look like: `def height(self):` and calculate recursively.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you implement the search operation?",
+        "answers": "You compare the target with the current node, right? Yes, and recurse based on that.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you provide the search function code?",
+        "answers": "Certainly! It could be `def search(self, value):` followed by the comparisons.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you implement the delete operation in a binary search tree?",
+        "answers": "You locate the node first, correct? Yes, then adjust pointers based on the node's children.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show me the delete function code?",
+        "answers": "Sure! It might look like `def delete(self, value):` with conditions for children.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you perform in-order traversal?",
+        "answers": "You traverse left first, then visit the node, right? Yes, finally go right.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you provide code for in-order traversal?",
+        "answers": "Certainly! It could start with `def inorder(self):` and call recursively.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you implement post-order traversal?",
+        "answers": "You go left and right first, then visit the node last, right? Yes, that's correct.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show me the code for post-order traversal?",
+        "answers": "Absolutely! It would begin with `def postorder(self):` and call recursively.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How can you check if a binary tree is balanced?",
+        "answers": "You compare heights of subtrees, correct? Yes, they should differ by at most one.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you provide a code snippet for checking balance?",
+        "answers": "Sure! It could look like `def is_balanced(self):` with height checks.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you serialize a binary tree?",
+        "answers": "You convert the tree to a string format, right? Yes, using pre-order traversal.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show the serialization code?",
+        "answers": "Certainly! It might start with `def serialize(self):` and append values.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you deserialize a string back to a tree?",
+        "answers": "You parse the string to rebuild the tree, right? Yes, using a helper function.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you provide the deserialization code?",
+        "answers": "Sure! It could look like `def deserialize(self, data):` and create nodes.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you define a binary tree node in Python?",
+        "answers": "Do you create a class? Yes, with attributes for value and children. Here's how: `class TreeNode:`.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show me the code for the binary tree node?",
+        "answers": "Sure! You start with `class TreeNode:` and an `__init__` method like this: `def __init__(self, value): self.value = value; self.left = None; self.right = None`.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you implement the insert operation in a binary search tree?",
+        "answers": "You compare values to decide where to go. Yes, left or right based on comparison. Here’s the code:",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show the insert function code?",
+        "answers": "Of course! It would look like this: `def insert(self, value): if value < self.value: if self.left is None: self.left = TreeNode(value); else: self.left.insert(value); else: if self.right is None: self.right = TreeNode(value); else: self.right.insert(value)`.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How would you implement pre-order traversal?",
+        "answers": "You print the node's value first, right? Then you traverse left and right? Yes. Here's how you might code it:",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you provide a sample code for pre-order traversal?",
+        "answers": "Absolutely! It could start with `def preorder(self): print(self.value); if self.left: self.left.preorder(); if self.right: self.right.preorder()`.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you find the height of the binary tree?",
+        "answers": "You recursively find the maximum height, correct? Yes, and add one for the current node. Here's a sample:",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show the height function in code?",
+        "answers": "Sure! It might look like: `def height(self): return 1 + max(self.left.height() if self.left else 0, self.right.height() if self.right else 0)`.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you implement the search operation?",
+        "answers": "You compare the target with the current node, right? Yes, and recurse based on that. Here's the code:",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you provide the search function code?",
+        "answers": "Certainly! It could be `def search(self, value): if value == self.value: return self; elif value < self.value: return self.left.search(value) if self.left else None; else: return self.right.search(value) if self.right else None`.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you implement the delete operation in a binary search tree?",
+        "answers": "You locate the node first, correct? Yes, then adjust pointers based on the node's children. Here’s an example:",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show me the delete function code?",
+        "answers": "Sure! It might look like `def delete(self, value): if value < self.value: if self.left: self.left = self.left.delete(value); elif value > self.value: if self.right: self.right = self.right.delete(value); else: if self.left is None: return self.right; elif self.right is None: return self.left; min_larger_node = self.right.find_min(); self.value = min_larger_node.value; self.right = self.right.delete(min_larger_node.value)`.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you perform in-order traversal?",
+        "answers": "You traverse left first, then visit the node, right? Yes, finally go right. Here’s how to code it:",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you provide code for in-order traversal?",
+        "answers": "Certainly! It could start with `def inorder(self): if self.left: self.left.inorder(); print(self.value); if self.right: self.right.inorder()`.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you implement post-order traversal?",
+        "answers": "You go left and right first, then visit the node last, right? Yes, that's correct. Here's the code:",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show me the code for post-order traversal?",
+        "answers": "Absolutely! It would begin with `def postorder(self): if self.left: self.left.postorder(); if self.right: self.right.postorder(); print(self.value)`.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How can you check if a binary tree is balanced?",
+        "answers": "You compare heights of subtrees, correct? Yes, they should differ by at most one. Here’s an example:",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you provide a code snippet for checking balance?",
+        "answers": "Sure! It could look like `def is_balanced(self): return abs(self.left.height() - self.right.height()) <= 1 and (self.left.is_balanced() if self.left else True) and (self.right.is_balanced() if self.right else True)`.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you serialize a binary tree?",
+        "answers": "You convert the tree to a string format, right? Yes, using pre-order traversal. Here's how:",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you show the serialization code?",
+        "answers": "Certainly! It might start with `def serialize(self): return ','.join(self.preorder())`, where `preorder` returns the serialized values.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do you deserialize a string back to a tree?",
+        "answers": "You parse the string to rebuild the tree, right? Yes, using a helper function. Here’s a sample:",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "Can you provide the deserialization code?",
+        "answers": "Sure! It could look like `def deserialize(self, data): values = data.split(','); return self._deserialize_helper(iter(values))`, where `_deserialize_helper` builds the tree recursively.",
+        "key_word": "program",
+        "num": 2
+    },
+    {
+        "question": "How do we determine if a binary tree is a valid binary search tree?",
+        "answers": "Should we not ensure that each node follows the properties of a binary search tree?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "What approach might we take to validate this property?",
+        "answers": "Could we use recursion to check each node against the minimum and maximum values?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "Could you illustrate how this validation might be coded?",
+        "answers": "Certainly! What if we defined a function like `is_valid_bst(self, node, min_val=float('-inf'), max_val=float('inf'))`?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "What happens if we want to find the lowest common ancestor of two nodes?",
+        "answers": "Might we use recursion to locate it, checking both sides of the tree?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "How might we structure this code?",
+        "answers": "We could write: `def lowest_common_ancestor(self, root, p, q):` followed by the necessary checks for root and the recursive calls.",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "If we wish to flatten a binary tree into a linked list, what strategy could we employ?",
+        "answers": "Should we not use pre-order traversal and adjust pointers accordingly?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "Can you provide a sample implementation of this flattening process?",
+        "answers": "Of course! Perhaps we could implement it as: `def flatten(self): if not self: return; self.flatten(self.left); self.flatten(self.right); self.left = None; self.right = next;`?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "How can we find the diameter of a binary tree?",
+        "answers": "Might we seek the longest path between any two nodes?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "What method could we use to achieve this?",
+        "answers": "Could depth-first search be a viable approach?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "Could you provide an example of how we might code this?",
+        "answers": "Certainly! We could structure it as follows: `def diameter_of_binary_tree(self, root): if not root: return 0; left_height = self.diameter_of_binary_tree(root.left); right_height = self.diameter_of_binary_tree(root.right); self.diameter = max(self.diameter, left_height + right_height); return max(left_height, right_height) + 1`.",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "If we want to serialize and deserialize a binary tree, how should we proceed?",
+        "answers": "Should we not convert the tree into a string and then back to a tree?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "What traversal method might be suitable for serialization?",
+        "answers": "Could we utilize pre-order traversal for this purpose?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "Can you provide an example of how we would code the serialization function?",
+        "answers": "Certainly! We could write: `def serialize(self, root): if not root: return 'null,'; return str(root.val) + ',' + self.serialize(root.left) + self.serialize(root.right)`.",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "How might we traverse a tree in level order?",
+        "answers": "Should we not utilize a queue to process nodes level by level?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "What steps would be involved in implementing this traversal?",
+        "answers": "Could we enqueue the root node and then continue dequeuing and enqueuing its children?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "Could you share an example of level-order traversal code?",
+        "answers": "Certainly! We could use: `def level_order(self, root): if not root: return []; queue = [root]; result = []; while queue: node = queue.pop(0); result.append(node.val); if node.left: queue.append(node.left); if node.right: queue.append(node.right); return result`.",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "If we wanted to find all paths from the root to the leaves, how could we approach this?",
+        "answers": "Might we employ a backtracking technique to explore each path?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "What would the structure of this backtracking function look like?",
+        "answers": "Could we write something like: `def find_paths(self, root, path, paths): if not root: return; path.append(root.val); if not root.left and not root.right: paths.append(list(path)); else: self.find_paths(root.left, path, paths); self.find_paths(root.right, path, paths); path.pop()`?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "How do we calculate the sum of all node values in a binary tree?",
+        "answers": "Should we not traverse the tree and accumulate the values as we go?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "What method could we use to implement this summation?",
+        "answers": "Could recursion be an effective approach here?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "Can you show me an example of the summation code?",
+        "answers": "Certainly! We could structure it like this: `def sum_tree(self, root): if not root: return 0; return root.val + self.sum_tree(root.left) + self.sum_tree(root.right)`.",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "How can we determine if a binary tree is symmetric?",
+        "answers": "Should we not compare the left and right subtrees recursively?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "What recursive strategy might we adopt for this check?",
+        "answers": "Could we define a helper function to compare two trees at a time?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "What would this symmetry check look like in code?",
+        "answers": "We might implement it as: `def is_symmetric(self, root): def is_mirror(left, right): if not left and not right: return True; if not left or not right: return False; return left.val == right.val and is_mirror(left.left, right.right) and is_mirror(left.right, right.left); return is_mirror(root, root)`.",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "How can we implement an in-order traversal iteratively?",
+        "answers": "Should we utilize a stack to keep track of nodes?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "What steps are involved in this iterative approach?",
+        "answers": "Could we push left nodes onto the stack and pop from the stack to visit nodes?",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "question": "Can you provide an example of the iterative in-order traversal code?",
+        "answers": "Certainly! We could write: `def inorder_traversal(self, root): stack = []; result = []; while stack or root: while root: stack.append(root); root = root.left; root = stack.pop(); result.append(root.val); root = root.right; return result`.",
+        "key_word": "algorithm",
+        "num": 3
+    },
+    {
+        "num": 0,
+        "key": "array_initialization",
+        "question": "Can you explain how you might start coding an array in a programming language like Python?",
+        "answers": "What do you think are the basic steps to declare and initialize an array in Python?"
+    },
+    {
+        "num": 0,
+        "key": "array_initialization",
+        "question": "I would initialize it as a list, like arr = [1, 2, 3].",
+        "answers": "That's correct! What if I asked you to implement an array that dynamically changes in size, adding or removing elements? How would you approach it?"
+    },
+    {
+        "num": 0,
+        "key": "array_initialization",
+        "question": "I would use list methods like append() and pop() to add or remove elements.",
+        "answers": "Exactly! Python's list is dynamic by nature. Could you think of any drawbacks in terms of performance when resizing arrays?"
+    },
+    {
+        "num": 1,
+        "key": "linked_list_initialization",
+        "question": "How would you start implementing a linked list in Python?",
+        "answers": "What do you think the basic building blocks of a linked list are?"
+    },
+    {
+        "num": 1,
+        "key": "linked_list_initialization",
+        "question": "I think a linked list has nodes with values and references to the next node.",
+        "answers": "Exactly! How would you define a Node class in Python to represent these individual elements of the linked list?"
+    },
+    {
+        "num": 1,
+        "key": "linked_list_initialization",
+        "question": "I would create a class Node with attributes for value and next like this: class Node: def __init__(self, value): self.value = value; self.next = None.",
+        "answers": "Great! Now, how would you build a class for the entire linked list that allows you to insert and delete nodes?"
+    },
+    {
+        "num": 2,
+        "key": "stack_initialization",
+        "question": "How would you approach coding a stack using Python?",
+        "answers": "What if I suggested that a stack could be implemented using a list? How might that work?"
+    },
+    {
+        "num": 2,
+        "key": "stack_initialization",
+        "question": "I would use append() to push elements onto the stack and pop() to remove them.",
+        "answers": "That's right! Stacks follow the Last In First Out (LIFO) principle. What do you think are the time complexities for pushing and popping in this list-based implementation?"
+    },
+    {
+        "num": 2,
+        "key": "stack_initialization",
+        "question": "I think both operations would be O(1) because append() and pop() work from the end of the list.",
+        "answers": "Exactly! Now, can you think of any scenarios where this list-based implementation might not be ideal?"
+    },
+    {
+        "num": 3,
+        "key": "queue_initialization",
+        "question": "How would you begin coding a queue in Python?",
+        "answers": "Do you think you could use a list or deque for this? How might they differ in terms of performance?"
+    },
+    {
+        "num": 3,
+        "key": "queue_initialization",
+        "question": "I think I could use a list with append() to enqueue and pop(0) to dequeue, but deque might be more efficient.",
+        "answers": "You're right! While lists work, deque is better for queues as it allows O(1) insertion and removal from both ends. Why do you think deque would be preferred in this case?"
+    },
+    {
+        "num": 3,
+        "key": "queue_initialization",
+        "question": "Because removing from the front of a list with pop(0) is O(n), but deque allows O(1) for both enqueue and dequeue.",
+        "answers": "Exactly! For performance reasons, deque is the better choice. Can you think of a scenario where a queue is the most suitable data structure to use?"
+    },
+    {
+        "num": 4,
+        "key": "binary_tree_initialization",
+        "question": "How would you implement a binary tree in Python?",
+        "answers": "What if I told you a binary tree could be built with nodes similar to a linked list? How might you structure the Node class?"
+    },
+    {
+        "num": 4,
+        "key": "binary_tree_initialization",
+        "question": "I would give the Node class a value and two references, one for the left child and one for the right child.",
+        "answers": "Exactly! How would you implement a method to insert a new value into the binary tree?"
+    },
+    {
+        "num": 4,
+        "key": "binary_tree_initialization",
+        "question": "I would create an insert method that recursively finds the correct position based on whether the value is smaller or larger than the current node.",
+        "answers": "Great approach! What do you think are the advantages and disadvantages of using a binary search tree for data storage?"
+    },
+    {
+        "num": 5,
+        "key": "list_operations",
+        "question": "How do you create an array in Python?",
+        "answers": "Do you think Python has a built-in array type, or would you use something else?"
+    },
+    {
+        "num": 5,
+        "key": "list_operations",
+        "question": "I’d use a list to make an array in Python, right?",
+        "answers": "Exactly! Python uses lists like arrays. Can you show me how you'd create a list with a few numbers?"
+    },
+    {
+        "num": 5,
+        "key": "list_operations",
+        "question": "Sure, I’d do something like this: my_list = [1, 2, 3, 4].",
+        "answers": "Perfect! Now, how would you add a new element to this list, or 'array'?"
+    },
+    {
+        "num": 5,
+        "key": "list_operations",
+        "question": "How do you add items to an array in Python?",
+        "answers": "Would you use a specific method to append new elements?"
+    },
+    {
+        "num": 5,
+        "key": "list_operations",
+        "question": "Yeah, I’d use append(), like my_list.append(5).",
+        "answers": "Exactly! What if you wanted to add multiple elements at once? Do you know which method to use for that?"
+    },
+    {
+        "num": 5,
+        "key": "list_operations",
+        "question": "I think I’d use extend(), right?",
+        "answers": "Right! extend() is great for adding more than one item at once. Do you know how to remove elements from a list?"
+    },
+    {
+        "num": 5,
+        "key": "list_operations",
+        "question": "How do you remove elements from an array in Python?",
+        "answers": "What do you think the method would be to remove an item?"
+    },
+    {
+        "num": 5,
+        "key": "list_operations",
+        "question": "I’d use pop() to remove the last element, or remove() to delete a specific one.",
+        "answers": "Exactly! What’s the difference between pop() and remove() when it comes to removing elements?"
+    },
+    {
+        "num": 5,
+        "key": "list_operations",
+        "question": "pop() removes by position, and remove() removes by value, right?",
+        "answers": "That’s correct! Can you think of a situation where pop() might be more useful than remove()?"
+    },
+    {
+        "num": 6,
+        "key": "linked_list_operations",
+        "question": "How would you start coding a linked list in Python?",
+        "answers": "Do you know what the basic building block of a linked list is?"
+    },
+    {
+        "num": 6,
+        "key": "linked_list_operations",
+        "question": "I think it’s called a node, right?",
+        "answers": "Exactly! Each node stores data and a reference to the next node. How would you create a class for a node?"
+    },
+    {
+        "num": 6,
+        "key": "linked_list_operations",
+        "question": "I’d create a class with two attributes: value and next, like this: class Node: def __init__(self, value): self.value = value; self.next = None.",
+        "answers": "Perfect! Now that you’ve got your Node class, how would you set up a linked list that connects these nodes?"
+    },
+    {
+        "num": 6,
+        "key": "linked_list_operations",
+        "question": "How do you build a linked list in Python using that Node class?",
+        "answers": "What’s your first step in creating a linked list structure?"
+    },
+    {
+        "num": 6,
+        "key": "linked_list_operations",
+        "question": "I’d create a LinkedList class with a head attribute pointing to the first node.",
+        "answers": "Exactly! The head points to the start of the list. How would you implement methods for inserting and deleting nodes?"
+    },
+    {
+        "num": 7,
+        "key": "stack_operations",
+        "question": "What’s your approach to implementing a stack in Python?",
+        "answers": "Have you considered using a list or maybe a more specialized structure?"
+    },
+    {
+        "num": 7,
+        "key": "stack_operations",
+        "question": "I’d use a list, where I can append to add and pop to remove.",
+        "answers": "Great! Stacks work on the Last In First Out principle. Do you think there’s a downside to using a list?"
+    },
+    {
+        "num": 7,
+        "key": "stack_operations",
+        "question": "If I pop from the beginning of a list, it could be O(n) because of shifting elements.",
+        "answers": "Exactly! What would be a better way to implement a stack for efficiency?"
+    },
+    {
+        "num": 8,
+        "key": "queue_operations",
+        "question": "How do you implement a queue in Python?",
+        "answers": "Have you thought about using a list or maybe deque for better performance?"
+    },
+    {
+        "num": 8,
+        "key": "queue_operations",
+        "question": "I’d probably use a deque, as it allows O(1) operations for both ends.",
+        "answers": "Absolutely! What are the benefits of using deque over a list for queue operations?"
+    },
+    {
+        "num": 8,
+        "key": "queue_operations",
+        "question": "The list would be slower because removing from the front is O(n), while deque is O(1).",
+        "answers": "Exactly! Can you think of a scenario where a queue would be useful?"
+    },
+    {
+        "num": 9,
+        "key": "binary_tree_operations",
+        "question": "How would you go about implementing a binary tree in Python?",
+        "answers": "What’s your first thought about the basic structure?"
+    },
+    {
+        "num": 9,
+        "key": "binary_tree_operations",
+        "question": "I’d start with a Node class, including left and right children.",
+        "answers": "Perfect! How would you implement an insert function in this tree structure?"
+    },
+    {
+        "num": 9,
+        "key": "binary_tree_operations",
+        "question": "I’d recursively check if the new value is less or greater than the current node’s value.",
+        "answers": "Exactly! What are the advantages of using a binary search tree compared to other data structures?"
+    },
+    {
+        "num": 0,
+        "key": "tree_structure",
+        "question": "How do you build a tree structure in Python using that Node class?",
+        "answers": "What would be your first step in creating a tree?"
+    },
+    {
+        "num": 0,
+        "key": "create_root_node",
+        "question": "I’d create a root node, then add other nodes as its children using the children list.",
+        "answers": "Exactly! Can you show how you’d add two children to the root node?"
+    },
+    {
+        "num": 0,
+        "key": "add_children",
+        "question": "I’d do something like this: root = Node('root'); child1 = Node('child1'); child2 = Node('child2'); root.children.append(child1); root.children.append(child2).",
+        "answers": "Great! Now that you've created a tree, how would you traverse it, for example, using depth-first search (DFS)?"
+    },
+    {
+        "num": 1,
+        "key": "tree_traversal",
+        "question": "How do you traverse a tree in Python?",
+        "answers": "Do you think you should use recursion or an iterative approach for traversing?"
+    },
+    {
+        "num": 1,
+        "key": "traverse_with_recursion",
+        "question": "I’d use recursion to visit each node, starting with the root and then its children.",
+        "answers": "Exactly! Recursion is very useful for tree traversal. How would you write a simple DFS function for this?"
+    },
+    {
+        "num": 1,
+        "key": "dfs_function",
+        "question": "I’d write something like: def dfs(node): print(node.value); for child in node.children: dfs(child).",
+        "answers": "Perfect! Now, can you think of a situation where a tree might be more useful than a linked list?"
+    },
+    {
+        "num": 2,
+        "key": "binary_tree_intro",
+        "question": "How would you start coding a binary tree in Python?",
+        "answers": "Do you know what makes a binary tree different from other trees?"
+    },
+    {
+        "num": 2,
+        "key": "binary_tree_definition",
+        "question": "A binary tree has at most two children per node, right?",
+        "answers": "Exactly! Each node can have a left and right child. How would you define a Node class for a binary tree?"
+    },
+    {
+        "num": 2,
+        "key": "define_binary_tree_node",
+        "question": "I’d create a class with left and right attributes, like this: class Node: def __init__(self, value): self.value = value; self.left = None; self.right = None.",
+        "answers": "Perfect! Now that you’ve defined the node, how would you create a binary tree with a root and two children?"
+    },
+    {
+        "num": 3,
+        "key": "adding_nodes_binary_tree",
+        "question": "How do you add nodes to a binary tree in Python?",
+        "answers": "What would be your approach to connecting child nodes to a root node?"
+    },
+    {
+        "num": 3,
+        "key": "connect_child_nodes",
+        "question": "I’d create the root and then set its left and right attributes, like this: root = Node('root'); root.left = Node('left'); root.right = Node('right').",
+        "answers": "Exactly! That’s how you assign children to a node. Now, how would you traverse this binary tree using in-order traversal?"
+    },
+    {
+        "num": 4,
+        "key": "in_order_traversal_intro",
+        "question": "How do you perform in-order traversal in a binary tree?",
+        "answers": "Do you think you should visit the left subtree, the node itself, or the right subtree first?"
+    },
+    {
+        "num": 4,
+        "key": "in_order_traversal_order",
+        "question": "I’d visit the left subtree, then the node, then the right subtree.",
+        "answers": "That’s correct! How would you write a recursive function to perform in-order traversal?"
+    },
+    {
+        "num": 4,
+        "key": "in_order_function",
+        "question": "I’d write something like this: def in_order(node): if node: in_order(node.left); print(node.value); in_order(node.right).",
+        "answers": "Perfect! Now, how would you insert a new value into a binary search tree (BST)?"
+    },
+    {
+        "num": 5,
+        "key": "bst_insertion_intro",
+        "question": "How do you insert a value into a binary search tree?",
+        "answers": "Would you compare the value with the node's value to decide where to insert it?"
+    },
+    {
+        "num": 5,
+        "key": "bst_insertion_logic",
+        "question": "Yes, I’d compare the value. If it’s smaller, I’d insert it in the left subtree; if it’s larger, in the right subtree.",
+        "answers": "Exactly! How would you write the code to insert a value into a BST?"
+    },
+    {
+        "num": 5,
+        "key": "insert_function",
+        "question": "I’d write something like: def insert(node, value): if node is None: return Node(value); if value < node.value: node.left = insert(node.left, value); else: node.right = insert(node.right, value); return node.",
+        "answers": "Perfect! Now, how would you delete a node from a binary search tree while keeping the tree structure valid?"
+    },
+    {
+        "num": 6,
+        "key": "graph_intro",
+        "question": "How would you start coding a graph in Python?",
+        "answers": "Do you know what the basic components of a graph are?"
+    },
+    {
+        "num": 6,
+        "key": "graph_definition",
+        "question": "A graph has vertices (or nodes) and edges that connect them, right?",
+        "answers": "Exactly! A graph is a collection of nodes (vertices) connected by edges. How would you represent a graph in Python, using something like an adjacency list?"
+    },
+    {
+        "num": 6,
+        "key": "adjacency_list_representation",
+        "question": "I’d use a dictionary where keys are nodes and values are lists of connected nodes, like this: graph = { 'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A'], 'D': ['B'] }.",
+        "answers": "Perfect! That’s a simple adjacency list representation. Now, how would you add an edge between two nodes in this graph?"
+    },
+    {
+        "num": 7,
+        "key": "adding_edge_to_graph",
+        "question": "How do you add an edge to a graph in Python?",
+        "answers": "What would be your first step if you wanted to add an edge between two nodes?"
+    },
+    {
+        "num": 7,
+        "key": "update_adjacency_list",
+        "question": "I’d update the adjacency list for both nodes, like this: graph['A'].append('E'); graph['E'] = ['A'].",
+        "answers": "Exactly! You’d update both nodes to reflect the connection. Now, how would you traverse this graph using breadth-first search (BFS)?"
+    },
+    {
+        "num": 8,
+        "key": "bfs_intro",
+        "question": "How do you implement breadth-first search (BFS) for a graph?",
+        "answers": "Would you use a queue to explore nodes level by level?"
+    },
+    {
+        "num": 8,
+        "key": "bfs_implementation",
+        "question": "Yes, I’d use a queue. Start from a node, explore its neighbors, then move to the next level.",
+        "answers": "That’s right! How would you write a BFS function to explore all nodes starting from a given node?"
+    },
+    {
+        "num": 8,
+        "key": "bfs_function",
+        "question": "I’d write something like: def bfs(graph, start): visited = set(); queue = [start]; while queue: node = queue.pop(0); if node not in visited: print(node); visited.add(node); queue.extend([n for n in graph[node] if n not in visited]).",
+        "answers": "Perfect! Now, how would you implement depth-first search (DFS) for the same graph?"
+    },
+    {
+        "num": 9,
+        "key": "dfs_intro_graph",
+        "question": "How do you perform depth-first search (DFS) on a graph?",
+        "answers": "Would you use recursion or a stack for DFS?"
+    },
+    {
+        "num": 9,
+        "key": "dfs_with_recursion",
+        "question": "I’d use recursion to explore as deep as possible before backtracking.",
+        "answers": "Exactly! DFS can be done recursively. How would you write a recursive DFS function?"
+    },
+    {
+        "num": 9,
+        "key": "recursive_dfs_function",
+        "question": "I’d write something like: def dfs(graph, node, visited): if node not in visited: print(node); visited.add(node); for neighbor in graph[node]: dfs(graph, neighbor, visited).",
+        "answers": "Perfect! Finally, can you explain a situation where a graph might be more useful than a tree?"
     }
 ]
