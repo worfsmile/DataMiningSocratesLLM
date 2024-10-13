@@ -1,0 +1,132 @@
+[
+    {
+        "question": "How do you analyze the time complexity of graph traversal algorithms?",
+        "answers": "Do you know what factors influence the time complexity in algorithms like BFS or DFS?",
+        "key_word": "graph"
+    },
+    {
+        "question": "I think it depends on the number of vertices and edges in the graph.",
+        "answers": "Exactly! For both BFS and DFS, the time complexity is O(V + E), where V is the number of vertices and E is the number of edges. How would you implement BFS in Python?",
+        "key_word": "vertices"
+    },
+    {
+        "question": "Can you show me how to implement BFS in Python?",
+        "answers": "What would be your first step in writing the BFS function?",
+        "key_word": "BFS"
+    },
+    {
+        "question": "I’d initialize a queue and a set to keep track of visited nodes.",
+        "answers": "Great! Once you have those, how would you start the traversal from a given starting node?",
+        "key_word": "queue"
+    },
+    {
+        "question": "I’d enqueue the starting node and mark it as visited, then enter a loop to process each node.",
+        "answers": "Exactly! Can you write a basic BFS function based on that idea?",
+        "key_word": "enqueue"
+    },
+    {
+        "question": "Sure! Here’s a simple BFS implementation: def bfs(graph, start): visited = set(); queue = [start]; visited.add(start); while queue: node = queue.pop(0); print(node); for neighbor in graph[node]: if neighbor not in visited: visited.add(neighbor); queue.append(neighbor).",
+        "answers": "That looks good! Now, how would you analyze the space complexity of your BFS implementation?",
+        "key_word": "visited"
+    },
+    {
+        "question": "What factors affect the space complexity of BFS?",
+        "answers": "Do you think it’s related to the size of the queue and the set of visited nodes?",
+        "key_word": "complexity"
+    },
+    {
+        "question": "Yes, the space complexity is O(V) because we store visited nodes and the queue.",
+        "answers": "Correct! Now, let's switch to DFS. How would you implement DFS iteratively in Python?",
+        "key_word": "DFS"
+    },
+    {
+        "question": "How do you write an iterative DFS function?",
+        "answers": "Would you use a stack for the iterative version of DFS?",
+        "key_word": "stack"
+    },
+    {
+        "question": "Yes, I’d use a stack to explore nodes. I’d start by pushing the initial node onto the stack.",
+        "answers": "Great approach! Can you write down how you would implement that?",
+        "key_word": "push"
+    },
+    {
+        "question": "Here’s my iterative DFS code: def dfs_iterative(graph, start): visited = set(); stack = [start]; while stack: node = stack.pop(); if node not in visited: print(node); visited.add(node); stack.extend([n for n in graph[node] if n not in visited]).",
+        "answers": "That’s an excellent implementation! How would you analyze the time and space complexity for this DFS implementation?",
+        "key_word": "pop"
+    },
+    {
+        "question": "The time complexity is O(V + E), and the space complexity is O(V) for the stack and visited nodes.",
+        "answers": "Exactly! Understanding these complexities helps in selecting the right algorithm for specific applications. Do you have any scenarios in mind where BFS or DFS would be particularly useful?",
+        "key_word": "applications"
+    },
+    {
+        "question": "What are the common tree traversal algorithms?",
+        "answers": "Do you know about the main types of tree traversal methods, like preorder, inorder, and postorder?",
+        "key_word": "traversal"
+    },
+    {
+        "question": "Yes, I know those methods! What do they actually do?",
+        "answers": "Great! Preorder visits the root first, followed by the left subtree, and then the right subtree. How about you describe what inorder traversal does?",
+        "key_word": "subtree"
+    },
+    {
+        "question": "Inorder visits the left subtree first, then the root, and finally the right subtree.",
+        "answers": "Exactly! And postorder visits the left subtree, then the right subtree, and finally the root. Can you explain why these traversals might be useful?",
+        "key_word": "postorder"
+    },
+    {
+        "question": "They help in accessing the nodes in different orders, which is useful for various applications.",
+        "answers": "Correct! Now, how would you implement preorder traversal recursively in Python?",
+        "key_word": "preorder"
+    },
+    {
+        "question": "Can you show me a recursive implementation for preorder traversal?",
+        "answers": "What would be your first step in writing the recursive function?",
+        "key_word": "recursion"
+    },
+    {
+        "question": "I’d check if the current node is None, and if it’s not, print the value and recursively call the left and right children.",
+        "answers": "Exactly! Can you write the code for that?",
+        "key_word": "child"
+    },
+    {
+        "question": "Sure! Here’s my code: def preorder(node): if node: print(node.value); preorder(node.left); preorder(node.right).",
+        "answers": "That looks great! How would you implement inorder traversal recursively in a similar way?",
+        "key_word": "inorder"
+    },
+    {
+        "question": "How do you write the inorder function?",
+        "answers": "Would you follow the same pattern but adjust the order of the print statement?",
+        "key_word": "statement"
+    },
+    {
+        "question": "Yes, I’d call inorder on the left child first, then print the node, and finally call it on the right child.",
+        "answers": "Perfect! Can you show the code for the inorder traversal?",
+        "key_word": "child"
+    },
+    {
+        "question": "Here’s my inorder code: def inorder(node): if node: inorder(node.left); print(node.value); inorder(node.right).",
+        "answers": "Nice implementation! Now, how would you implement postorder traversal recursively?",
+        "key_word": "traversal"
+    },
+    {
+        "question": "What’s the best way to implement postorder traversal in Python?",
+        "answers": "Do you think you could write it by following the same logic but adjusting the print position to the end?",
+        "key_word": "position"
+    },
+    {
+        "question": "Yes, I’d call postorder on the left and right children first, and then print the node value.",
+        "answers": "That’s right! Can you share your postorder implementation?",
+        "key_word": "node"
+    },
+    {
+        "question": "Here’s my postorder code: def postorder(node): if node: postorder(node.left); postorder(node.right); print(node.value).",
+        "answers": "Well done! Now, how would you discuss the time and space complexity of these tree traversal algorithms?",
+        "key_word": "complexity"
+    },
+    {
+        "question": "I think the time complexity is O(N) for all three since you visit every node once.",
+        "answers": "Exactly! And the space complexity is O(H), where H is the height of the tree. How do you think this affects performance in different tree structures?",
+        "key_word": "height"
+    }
+]

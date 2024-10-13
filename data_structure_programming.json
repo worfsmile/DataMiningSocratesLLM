@@ -1,0 +1,298 @@
+[
+    {
+        "question": "Can you explain how you might start coding an array in a programming language like Python?",
+        "answers": "What do you think are the basic steps to declare and initialize an array in Python?"
+    },
+    {
+        "question": "I would initialize it as a list, like arr = [1, 2, 3].",
+        "answers": "That's correct! What if I asked you to implement an array that dynamically changes in size, adding or removing elements? How would you approach it?"
+    },
+    {
+        "question": "I would use list methods like append() and pop() to add or remove elements.",
+        "answers": "Exactly! Python's list is dynamic by nature. Could you think of any drawbacks in terms of performance when resizing arrays?"
+    },
+    {
+        "question": "How would you start implementing a linked list in Python?",
+        "answers": "What do you think the basic building blocks of a linked list are?"
+    },
+    {
+        "question": "I think a linked list has nodes with values and references to the next node.",
+        "answers": "Exactly! How would you define a Node class in Python to represent these individual elements of the linked list?"
+    },
+    {
+        "question": "I would create a class Node with attributes for value and next like this: class Node: def __init__(self, value): self.value = value; self.next = None.",
+        "answers": "Great! Now, how would you build a class for the entire linked list that allows you to insert and delete nodes?"
+    },
+    {
+        "question": "How would you approach coding a stack using Python?",
+        "answers": "What if I suggested that a stack could be implemented using a list? How might that work?"
+    },
+    {
+        "question": "I would use append() to push elements onto the stack and pop() to remove them.",
+        "answers": "That's right! Stacks follow the Last In First Out (LIFO) principle. What do you think are the time complexities for pushing and popping in this list-based implementation?"
+    },
+    {
+        "question": "I think both operations would be O(1) because append() and pop() work from the end of the list.",
+        "answers": "Exactly! Now, can you think of any scenarios where this list-based implementation might not be ideal?"
+    },
+    {
+        "question": "How would you begin coding a queue in Python?",
+        "answers": "Do you think you could use a list or deque for this? How might they differ in terms of performance?"
+    },
+    {
+        "question": "I think I could use a list with append() to enqueue and pop(0) to dequeue, but deque might be more efficient.",
+        "answers": "You're right! While lists work, deque is better for queues as it allows O(1) insertion and removal from both ends. Why do you think deque would be preferred in this case?"
+    },
+    {
+        "question": "Because removing from the front of a list with pop(0) is O(n), but deque allows O(1) for both enqueue and dequeue.",
+        "answers": "Exactly! For performance reasons, deque is the better choice. Can you think of a scenario where a queue is the most suitable data structure to use?"
+    },
+    {
+        "question": "How would you implement a binary tree in Python?",
+        "answers": "What if I told you a binary tree could be built with nodes similar to a linked list? How might you structure the Node class?"
+    },
+    {
+        "question": "I would give the Node class a value and two references, one for the left child and one for the right child.",
+        "answers": "Exactly! How would you implement a method to insert a new value into the binary tree?"
+    },
+    {
+        "question": "I would create an insert method that recursively finds the correct position based on whether the value is smaller or larger than the current node.",
+        "answers": "Great approach! What do you think are the advantages and disadvantages of using a binary search tree for data storage?"
+    },
+    {
+        "question": "How do you create an array in Python?",
+        "answers": "Do you think Python has a built-in array type, or would you use something else?"
+    },
+    {
+        "question": "I’d use a list to make an array in Python, right?",
+        "answers": "Exactly! Python uses lists like arrays. Can you show me how you'd create a list with a few numbers?"
+    },
+    {
+        "question": "Sure, I’d do something like this: my_list = [1, 2, 3, 4].",
+        "answers": "Perfect! Now, how would you add a new element to this list, or 'array'?"
+    },
+    {
+        "question": "How do you add items to an array in Python?",
+        "answers": "Would you use a specific method to append new elements?"
+    },
+    {
+        "question": "Yeah, I’d use append(), like my_list.append(5).",
+        "answers": "Exactly! What if you wanted to add multiple elements at once? Do you know which method to use for that?"
+    },
+    {
+        "question": "I think I’d use extend(), right?",
+        "answers": "Right! extend() is great for adding more than one item at once. Do you know how to remove elements from a list?"
+    },
+    {
+        "question": "How do you remove elements from an array in Python?",
+        "answers": "What do you think the method would be to remove an item?"
+    },
+    {
+        "question": "I’d use pop() to remove the last element, or remove() to delete a specific one.",
+        "answers": "Exactly! What’s the difference between pop() and remove() when it comes to removing elements?"
+    },
+    {
+        "question": "pop() removes by position, and remove() removes by value, right?",
+        "answers": "That’s correct! Can you think of a situation where pop() might be more useful than remove()?"
+    },
+    {
+        "question": "How would you start coding a linked list in Python?",
+        "answers": "Do you know what the basic building block of a linked list is?"
+    },
+    {
+        "question": "I think it’s called a node, right?",
+        "answers": "Exactly! Each node stores data and a reference to the next node. How would you create a class for a node?"
+    },
+    {
+        "question": "I’d create a class with two attributes: value and next, like this: class Node: def __init__(self, value): self.value = value; self.next = None.",
+        "answers": "Perfect! Now that you’ve got your Node class, how would you set up a linked list that connects these nodes?"
+    },
+    {
+        "question": "How do you build a linked list in Python using that Node class?",
+        "answers": "What’s your first step in creating a linked list structure?"
+    },
+    {
+        "question": "I’d create a LinkedList class with a head attribute pointing to the first node.",
+        "answers": "Exactly! The head points to the start of the list. How would you insert a new node at the end of the list?"
+    },
+    {
+        "question": "I’d traverse the list from the head and add the new node when I reach the end.",
+        "answers": "That’s right! Can you show how you’d implement this in code?"
+    },
+    {
+        "question": "How do you delete a node in a linked list?",
+        "answers": "What do you think the basic steps are to remove a node?"
+    },
+    {
+        "question": "I’d find the node I want to delete and update the previous node’s next reference to skip it.",
+        "answers": "Correct! What happens if the node you want to delete is the head of the list?"
+    },
+    {
+        "question": "In that case, I’d update the head to point to the next node.",
+        "answers": "Exactly! That’s how you handle deletion when the node is at the beginning. Can you think of a situation where a linked list is better than an array?"
+    },
+    {
+        "question": "How do you start coding a tree in Python?",
+        "answers": "Do you know what the basic component of a tree is called?"
+    },
+    {
+        "question": "It’s called a node, right?",
+        "answers": "Exactly! Just like in a linked list, a tree has nodes, but each node can have more than one child. How would you define a Node class for a tree?"
+    },
+    {
+        "question": "I’d create a class with a value and a list of children, like this: class Node: def __init__(self, value): self.value = value; self.children = [].",
+        "answers": "Perfect! Now that you’ve got your Node class, how would you create a simple tree with one root and a few children?"
+    },
+    {
+        "question": "How do you build a tree structure in Python using that Node class?",
+        "answers": "What would be your first step in creating a tree?"
+    },
+    {
+        "question": "I’d create a root node, then add other nodes as its children using the children list.",
+        "answers": "Exactly! Can you show how you’d add two children to the root node?"
+    },
+    {
+        "question": "I’d do something like this: root = Node('root'); child1 = Node('child1'); child2 = Node('child2'); root.children.append(child1); root.children.append(child2).",
+        "answers": "Great! Now that you've created a tree, how would you traverse it, for example, using depth-first search (DFS)?"
+    },
+    {
+        "question": "How do you traverse a tree in Python?",
+        "answers": "Do you think you should use recursion or an iterative approach for traversing?"
+    },
+    {
+        "question": "I’d use recursion to visit each node, starting with the root and then its children.",
+        "answers": "Exactly! Recursion is very useful for tree traversal. How would you write a simple DFS function for this?"
+    },
+    {
+        "question": "I’d write something like: def dfs(node): print(node.value); for child in node.children: dfs(child).",
+        "answers": "Perfect! Now, can you think of a situation where a tree might be more useful than a linked list?"
+    },
+    {
+        "question": "How would you start coding a binary tree in Python?",
+        "answers": "Do you know what makes a binary tree different from other trees?"
+    },
+    {
+        "question": "A binary tree has at most two children per node, right?",
+        "answers": "Exactly! Each node can have a left and right child. How would you define a Node class for a binary tree?"
+    },
+    {
+        "question": "I’d create a class with left and right attributes, like this: class Node: def __init__(self, value): self.value = value; self.left = None; self.right = None.",
+        "answers": "Perfect! Now that you’ve defined the node, how would you create a binary tree with a root and two children?"
+    },
+    {
+        "question": "How do you add nodes to a binary tree in Python?",
+        "answers": "What would be your approach to connecting child nodes to a root node?"
+    },
+    {
+        "question": "I’d create the root and then set its left and right attributes, like this: root = Node('root'); root.left = Node('left'); root.right = Node('right').",
+        "answers": "Exactly! That’s how you assign children to a node. Now, how would you traverse this binary tree using in-order traversal?"
+    },
+    {
+        "question": "How do you perform in-order traversal in a binary tree?",
+        "answers": "Do you think you should visit the left subtree, the node itself, or the right subtree first?"
+    },
+    {
+        "question": "I’d visit the left subtree, then the node, then the right subtree.",
+        "answers": "That’s correct! How would you write a recursive function to perform in-order traversal?"
+    },
+    {
+        "question": "I’d write something like this: def in_order(node): if node: in_order(node.left); print(node.value); in_order(node.right).",
+        "answers": "Perfect! Now, how would you insert a new value into a binary search tree (BST)?"
+    },
+    {
+        "question": "How do you insert a value into a binary search tree?",
+        "answers": "Would you compare the value with the node's value to decide where to insert it?"
+    },
+    {
+        "question": "Yes, I’d compare the value. If it’s smaller, I’d insert it in the left subtree; if it’s larger, in the right subtree.",
+        "answers": "Exactly! How would you write the code to insert a value into a BST?"
+    },
+    {
+        "question": "I’d write something like: def insert(node, value): if node is None: return Node(value); if value < node.value: node.left = insert(node.left, value); else: node.right = insert(node.right, value); return node.",
+        "answers": "Perfect! Now, how would you delete a node from a binary search tree while keeping the tree structure valid?"
+    },
+    {
+        "question": "How would you start coding a graph in Python?",
+        "answers": "Do you know what the basic components of a graph are?"
+    },
+    {
+        "question": "A graph has vertices (or nodes) and edges that connect them, right?",
+        "answers": "Exactly! A graph is a collection of nodes (vertices) connected by edges. How would you represent a graph in Python, using something like an adjacency list?"
+    },
+    {
+        "question": "I’d use a dictionary where keys are nodes and values are lists of connected nodes, like this: graph = { 'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A'], 'D': ['B'] }.",
+        "answers": "Perfect! That’s a simple adjacency list representation. Now, how would you add an edge between two nodes in this graph?"
+    },
+    {
+        "question": "How do you add an edge to a graph in Python?",
+        "answers": "What would be your first step if you wanted to add an edge between two nodes?"
+    },
+    {
+        "question": "I’d update the adjacency list for both nodes, like this: graph['A'].append('E'); graph['E'] = ['A'].",
+        "answers": "Exactly! You’d update both nodes to reflect the connection. Now, how would you traverse this graph using breadth-first search (BFS)?"
+    },
+    {
+        "question": "How do you implement breadth-first search (BFS) for a graph?",
+        "answers": "Would you use a queue to explore nodes level by level?"
+    },
+    {
+        "question": "Yes, I’d use a queue. Start from a node, explore its neighbors, then move to the next level.",
+        "answers": "That’s right! How would you write a BFS function to explore all nodes starting from a given node?"
+    },
+    {
+        "question": "I’d write something like: def bfs(graph, start): visited = set(); queue = [start]; while queue: node = queue.pop(0); if node not in visited: print(node); visited.add(node); queue.extend([n for n in graph[node] if n not in visited]).",
+        "answers": "Perfect! Now, how would you implement depth-first search (DFS) for the same graph?"
+    },
+    {
+        "question": "How do you perform depth-first search (DFS) on a graph?",
+        "answers": "Would you use recursion or a stack for DFS?"
+    },
+    {
+        "question": "I’d use recursion to explore as deep as possible before backtracking.",
+        "answers": "Exactly! DFS can be done recursively. How would you write a recursive DFS function?"
+    },
+    {
+        "question": "I’d write something like: def dfs(graph, node, visited=None): if visited is None: visited = set(); if node not in visited: print(node); visited.add(node); for neighbor in graph[node]: dfs(graph, neighbor, visited).",
+        "answers": "Great! That’s how you implement DFS. Now, can you think of a scenario where you would use a graph instead of a tree or a list?"
+    },
+    {
+        "question": "How would you create a hash table in Python?",
+        "answers": "Do you know how a hash table stores key-value pairs?"
+    },
+    {
+        "question": "It stores data in key-value pairs using a hashing function to index the keys.",
+        "answers": "Exactly! In Python, a dictionary acts like a hash table. How would you initialize a simple hash table using a dictionary?"
+    },
+    {
+        "question": "I’d write something like: hash_table = {}.",
+        "answers": "Perfect! Now, how would you add a key-value pair to this hash table?"
+    },
+    {
+        "question": "How do you add a key-value pair to a hash table in Python?",
+        "answers": "Would you just assign a value to a key like in a regular dictionary?"
+    },
+    {
+        "question": "Yes, I’d do something like: hash_table['key'] = 'value'.",
+        "answers": "Exactly! That’s how you store key-value pairs in a hash table. Now, how would you check if a key exists in the hash table?"
+    },
+    {
+        "question": "How do you check if a key is in a hash table?",
+        "answers": "Would you use the 'in' keyword to check for the existence of a key?"
+    },
+    {
+        "question": "Yes, I’d check it like this: 'key' in hash_table.",
+        "answers": "That’s right! Using 'in' works for checking keys. How would you handle collisions in a hash table when two keys hash to the same value?"
+    },
+    {
+        "question": "What do you do when two keys hash to the same value in a hash table?",
+        "answers": "Would you use a technique like chaining or open addressing?"
+    },
+    {
+        "question": "I’d use chaining by storing a list of values at each index in case of collisions.",
+        "answers": "Good choice! Chaining is a common way to handle collisions by using a list at each index. How would you implement chaining in Python using a dictionary?"
+    },
+    {
+        "question": "I’d modify the insertion logic to store a list at each index like this: hash_table.setdefault('key', []).append('value').",
+        "answers": "Perfect! Now you’re handling collisions with chaining. Would you like to explore other methods, like open addressing, for handling collisions?"
+    }
+]
